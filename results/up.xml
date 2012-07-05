@@ -1,0 +1,508 @@
+<results>
+  <problems>
+    <problem id="29-1" type="P"/>
+    <problem id="29-2" type="P"/>
+    <problem id="29-3" type="P"/>
+    <problem id="30-1" type="P"/>
+    <problem id="30-2" type="P"/>
+    <problem id="30-3" type="P"/>
+    <problem id="01-1" type="P"/>
+    <problem id="01-2" type="P"/>
+    <problem id="01-3" type="P"/>
+    <problem id="02-1" type="P"/>
+    <problem id="02-2" type="P"/>
+    <problem id="02-3" type="P"/>
+    <problem id="02-R" type="P"/>
+    <problem id="03-1" type="P"/>
+    <problem id="03-2" type="P"/>
+    <problem id="03-3" type="P"/>
+    <problem id="03-4" type="P"/>
+    <problem id="06-1" type="P"/>
+    <problem id="06-2" type="P"/>
+    <problem id="06-3" type="P"/>
+    <problem id="07-1" type="P"/>
+    <problem id="07-2" type="P"/>
+    <problem id="07-3" type="P"/>
+    <problem id="08-1" type="P"/>
+    <problem id="08-2" type="P"/>
+    <problem id="08-3" type="P"/>
+    <problem id="09-1" type="P"/>
+    <problem id="09-2" type="P"/>
+    <problem id="10-R" type="P"/>
+    <problem id="12-X" type="P"/>
+    <problem id="12-Y" type="P"/>
+    <problem id="12-Z" type="P"/>
+    <problem id="13-1" type="O"/>
+    <problem id="13-2" type="P"/>
+  </problems>
+  <contestants>
+    <contestant id="ANS">
+      <problem id="29-1" points="80" minus="0" outcome="accepted" />
+      <problem id="29-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="29-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="30-1" points="0" minus="0" outcome="accepted" />
+      <problem id="30-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="30-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="01-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="01-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="01-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-3" points="32" minus="0" outcome="accepted" />
+      <problem id="02-R" points="244" minus="0" outcome="accepted" />
+      <problem id="03-1" points="14" minus="0" outcome="accepted" />
+      <problem id="03-2" points="22" minus="0" outcome="accepted" />
+      <problem id="03-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="03-4" points="0" minus="0" outcome="not-submitted" />
+      <problem id="06-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="06-2" points="4" minus="0" outcome="accepted" />
+      <problem id="06-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-2" points="0" minus="25" outcome="accepted" />
+      <problem id="08-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="09-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="09-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="10-R" points="50" minus="0" outcome="accepted" />
+      <problem id="12-X" points="33" minus="25" outcome="accepted" />
+      <problem id="12-Y" points="67" minus="25" outcome="accepted" />
+      <problem id="12-Z" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-2" points="0" minus="0" outcome="not-submitted" />
+    </contestant>
+    <contestant id="BOD">
+      <problem id="29-1" points="32" minus="0" outcome="accepted" />
+      <problem id="29-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="29-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="30-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="30-2" points="100" minus="0" outcome="accepted" />
+      <problem id="30-3" points="41" minus="0" outcome="accepted" />
+      <problem id="01-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="01-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="01-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-R" points="0" minus="0" outcome="not-submitted" />
+      <problem id="03-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="03-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="03-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="03-4" points="0" minus="0" outcome="not-submitted" />
+      <problem id="06-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="06-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="06-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="09-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="09-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="10-R" points="0" minus="0" outcome="not-submitted" />
+      <problem id="12-X" points="0" minus="0" outcome="not-submitted" />
+      <problem id="12-Y" points="0" minus="0" outcome="not-submitted" />
+      <problem id="12-Z" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-2" points="0" minus="0" outcome="not-submitted" />
+    </contestant>
+    <contestant id="KAE">
+      <problem id="29-1" points="100" minus="0" outcome="accepted" />
+      <problem id="29-2" points="100" minus="0" outcome="accepted" />
+      <problem id="29-3" points="100" minus="0" outcome="accepted" />
+      <problem id="30-1" points="58" minus="0" outcome="accepted" />
+      <problem id="30-2" points="100" minus="0" outcome="accepted" />
+      <problem id="30-3" points="93" minus="0" outcome="accepted" />
+      <problem id="01-1" points="73" minus="0" outcome="accepted" />
+      <problem id="01-2" points="100" minus="0" outcome="accepted" />
+      <problem id="01-3" points="100" minus="0" outcome="accepted" />
+      <problem id="02-1" points="72" minus="0" outcome="accepted" />
+      <problem id="02-2" points="100" minus="0" outcome="accepted" />
+      <problem id="02-3" points="100" minus="0" outcome="accepted" />
+      <problem id="02-R" points="50" minus="0" outcome="accepted" />
+      <problem id="03-1" points="100" minus="0" outcome="accepted" />
+      <problem id="03-2" points="100" minus="0" outcome="accepted" />
+      <problem id="03-3" points="97" minus="0" outcome="accepted" />
+      <problem id="03-4" points="82" minus="0" outcome="accepted" />
+      <problem id="06-1" points="14" minus="0" outcome="accepted" />
+      <problem id="06-2" points="20" minus="0" outcome="accepted" />
+      <problem id="06-3" points="4" minus="0" outcome="accepted" />
+      <problem id="07-1" points="16" minus="0" outcome="accepted" />
+      <problem id="07-2" points="37" minus="0" outcome="accepted" />
+      <problem id="07-3" points="100" minus="0" outcome="accepted" />
+      <problem id="08-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-2" points="16" minus="0" outcome="accepted" />
+      <problem id="08-3" points="22" minus="0" outcome="accepted" />
+      <problem id="09-1" points="100" minus="0" outcome="accepted" />
+      <problem id="09-2" points="65" minus="0" outcome="accepted" />
+      <problem id="10-R" points="175" minus="0" outcome="accepted" />
+      <problem id="12-X" points="0" minus="0" outcome="not-submitted" />
+      <problem id="12-Y" points="0" minus="0" outcome="not-submitted" />
+      <problem id="12-Z" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-2" points="0" minus="0" outcome="not-submitted" />
+    </contestant>
+    <contestant id="KRI">
+      <problem id="29-1" points="100" minus="0" outcome="accepted" />
+      <problem id="29-2" points="13" minus="0" outcome="accepted" />
+      <problem id="29-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="30-1" points="38" minus="0" outcome="accepted" />
+      <problem id="30-2" points="5" minus="0" outcome="accepted" />
+      <problem id="30-3" points="41" minus="0" outcome="accepted" />
+      <problem id="01-1" points="0" minus="0" outcome="accepted" />
+      <problem id="01-2" points="7" minus="0" outcome="accepted" />
+      <problem id="01-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-R" points="50" minus="0" outcome="accepted" />
+      <problem id="03-1" points="69" minus="0" outcome="accepted" />
+      <problem id="03-2" points="75" minus="0" outcome="accepted" />
+      <problem id="03-3" points="0" minus="0" outcome="accepted" />
+      <problem id="03-4" points="0" minus="0" outcome="not-submitted" />
+      <problem id="06-1" points="2" minus="0" outcome="accepted" />
+      <problem id="06-2" points="0" minus="0" outcome="accepted" />
+      <problem id="06-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-1" points="25" minus="0" outcome="accepted" />
+      <problem id="07-2" points="66" minus="0" outcome="accepted" />
+      <problem id="07-3" points="11" minus="0" outcome="accepted" />
+      <problem id="08-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-2" points="0" minus="25" outcome="accepted" />
+      <problem id="08-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="09-1" points="35" minus="0" outcome="accepted" />
+      <problem id="09-2" points="32" minus="0" outcome="accepted" />
+      <problem id="10-R" points="29" minus="0" outcome="accepted" />
+      <problem id="12-X" points="16" minus="25" outcome="accepted" />
+      <problem id="12-Y" points="45" minus="0" outcome="accepted" />
+      <problem id="12-Z" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-2" points="0" minus="0" outcome="accepted" />
+    </contestant>
+    <contestant id="NIS">
+      <problem id="29-1" points="100" minus="0" outcome="accepted" />
+      <problem id="29-2" points="83" minus="0" outcome="accepted" />
+      <problem id="29-3" points="100" minus="0" outcome="accepted" />
+      <problem id="30-1" points="100" minus="0" outcome="accepted" />
+      <problem id="30-2" points="100" minus="0" outcome="accepted" />
+      <problem id="30-3" points="100" minus="0" outcome="accepted" />
+      <problem id="01-1" points="58" minus="0" outcome="accepted" />
+      <problem id="01-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="01-3" points="47" minus="0" outcome="accepted" />
+      <problem id="02-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-2" points="100" minus="0" outcome="accepted" />
+      <problem id="02-3" points="67" minus="0" outcome="accepted" />
+      <problem id="02-R" points="124" minus="0" outcome="accepted" />
+      <problem id="03-1" points="100" minus="0" outcome="accepted" />
+      <problem id="03-2" points="99" minus="0" outcome="accepted" />
+      <problem id="03-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="03-4" points="92" minus="0" outcome="accepted" />
+      <problem id="06-1" points="89" minus="0" outcome="accepted" />
+      <problem id="06-2" points="2" minus="0" outcome="accepted" />
+      <problem id="06-3" points="0" minus="0" outcome="accepted" />
+      <problem id="07-1" points="72" minus="0" outcome="accepted" />
+      <problem id="07-2" points="100" minus="0" outcome="accepted" />
+      <problem id="07-3" points="47" minus="0" outcome="accepted" />
+      <problem id="08-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-2" points="0" minus="0" outcome="accepted" />
+      <problem id="08-3" points="11" minus="0" outcome="accepted" />
+      <problem id="09-1" points="80" minus="0" outcome="accepted" />
+      <problem id="09-2" points="84" minus="0" outcome="accepted" />
+      <problem id="10-R" points="112" minus="0" outcome="accepted" />
+      <problem id="12-X" points="0" minus="0" outcome="not-submitted" />
+      <problem id="12-Y" points="0" minus="0" outcome="not-submitted" />
+      <problem id="12-Z" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-2" points="2" minus="0" outcome="accepted" />
+    </contestant>
+    <contestant id="OGD">
+      <problem id="29-1" points="28" minus="0" outcome="accepted" />
+      <problem id="29-2" points="100" minus="0" outcome="accepted" />
+      <problem id="29-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="30-1" points="7" minus="0" outcome="accepted" />
+      <problem id="30-2" points="25" minus="0" outcome="accepted" />
+      <problem id="30-3" points="0" minus="0" outcome="accepted" />
+      <problem id="01-1" points="7" minus="0" outcome="accepted" />
+      <problem id="01-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="01-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-3" points="32" minus="0" outcome="accepted" />
+      <problem id="02-R" points="220" minus="0" outcome="accepted" />
+      <problem id="03-1" points="99" minus="0" outcome="accepted" />
+      <problem id="03-2" points="100" minus="0" outcome="accepted" />
+      <problem id="03-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="03-4" points="0" minus="0" outcome="compilation-error" />
+      <problem id="06-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="06-2" points="4" minus="0" outcome="accepted" />
+      <problem id="06-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-2" points="52" minus="0" outcome="accepted" />
+      <problem id="07-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-2" points="0" minus="0" outcome="accepted" />
+      <problem id="08-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="09-1" points="5" minus="0" outcome="accepted" />
+      <problem id="09-2" points="21" minus="0" outcome="accepted" />
+      <problem id="10-R" points="50" minus="0" outcome="accepted" />
+      <problem id="12-X" points="85" minus="25" outcome="accepted" />
+      <problem id="12-Y" points="40" minus="25" outcome="accepted" />
+      <problem id="12-Z" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-2" points="18" minus="0" outcome="accepted" />
+    </contestant>
+    <contestant id="POO">
+      <problem id="29-1" points="100" minus="0" outcome="accepted" />
+      <problem id="29-2" points="100" minus="0" outcome="accepted" />
+      <problem id="29-3" points="100" minus="0" outcome="accepted" />
+      <problem id="30-1" points="100" minus="0" outcome="accepted" />
+      <problem id="30-2" points="100" minus="0" outcome="accepted" />
+      <problem id="30-3" points="100" minus="0" outcome="accepted" />
+      <problem id="01-1" points="100" minus="0" outcome="accepted" />
+      <problem id="01-2" points="26" minus="0" outcome="accepted" />
+      <problem id="01-3" points="100" minus="0" outcome="accepted" />
+      <problem id="02-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-2" points="13" minus="0" outcome="accepted" />
+      <problem id="02-3" points="100" minus="0" outcome="accepted" />
+      <problem id="02-R" points="94" minus="0" outcome="accepted" />
+      <problem id="03-1" points="100" minus="0" outcome="accepted" />
+      <problem id="03-2" points="47" minus="0" outcome="accepted" />
+      <problem id="03-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="03-4" points="0" minus="0" outcome="not-submitted" />
+      <problem id="06-1" points="13" minus="0" outcome="accepted" />
+      <problem id="06-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="06-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-1" points="27" minus="0" outcome="accepted" />
+      <problem id="07-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-3" points="100" minus="0" outcome="accepted" />
+      <problem id="08-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="09-1" points="15" minus="0" outcome="accepted" />
+      <problem id="09-2" points="20" minus="0" outcome="accepted" />
+      <problem id="10-R" points="102" minus="0" outcome="accepted" />
+      <problem id="12-X" points="0" minus="0" outcome="not-submitted" />
+      <problem id="12-Y" points="0" minus="0" outcome="not-submitted" />
+      <problem id="12-Z" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-2" points="2" minus="0" outcome="accepted" />
+    </contestant>
+    <contestant id="SES">
+      <problem id="29-1" points="100" minus="0" outcome="accepted" />
+      <problem id="29-2" points="100" minus="0" outcome="accepted" />
+      <problem id="29-3" points="100" minus="0" outcome="accepted" />
+      <problem id="30-1" points="100" minus="0" outcome="accepted" />
+      <problem id="30-2" points="100" minus="0" outcome="accepted" />
+      <problem id="30-3" points="100" minus="0" outcome="accepted" />
+      <problem id="01-1" points="100" minus="0" outcome="accepted" />
+      <problem id="01-2" points="100" minus="0" outcome="accepted" />
+      <problem id="01-3" points="64" minus="0" outcome="accepted" />
+      <problem id="02-1" points="23" minus="0" outcome="accepted" />
+      <problem id="02-2" points="24" minus="0" outcome="accepted" />
+      <problem id="02-3" points="100" minus="0" outcome="accepted" />
+      <problem id="02-R" points="56" minus="0" outcome="accepted" />
+      <problem id="03-1" points="100" minus="0" outcome="accepted" />
+      <problem id="03-2" points="100" minus="0" outcome="accepted" />
+      <problem id="03-3" points="45" minus="0" outcome="accepted" />
+      <problem id="03-4" points="25" minus="0" outcome="accepted" />
+      <problem id="06-1" points="88" minus="0" outcome="accepted" />
+      <problem id="06-2" points="0" minus="0" outcome="accepted" />
+      <problem id="06-3" points="0" minus="20" outcome="accepted" />
+      <problem id="07-1" points="73" minus="0" outcome="accepted" />
+      <problem id="07-2" points="86" minus="0" outcome="accepted" />
+      <problem id="07-3" points="58" minus="0" outcome="accepted" />
+      <problem id="08-1" points="4" minus="0" outcome="accepted" />
+      <problem id="08-2" points="28" minus="0" outcome="accepted" />
+      <problem id="08-3" points="11" minus="0" outcome="accepted" />
+      <problem id="09-1" points="80" minus="0" outcome="accepted" />
+      <problem id="09-2" points="85" minus="0" outcome="accepted" />
+      <problem id="10-R" points="126" minus="0" outcome="accepted" />
+      <problem id="12-X" points="0" minus="0" outcome="not-submitted" />
+      <problem id="12-Y" points="0" minus="0" outcome="not-submitted" />
+      <problem id="12-Z" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-1" points="30" minus="0" outcome="accepted" />
+      <problem id="13-2" points="8" minus="0" outcome="accepted" />
+    </contestant>
+    <contestant id="TUM">
+      <problem id="29-1" points="88" minus="0" outcome="accepted" />
+      <problem id="29-2" points="100" minus="0" outcome="accepted" />
+      <problem id="29-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="30-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="30-2" points="16" minus="0" outcome="accepted" />
+      <problem id="30-3" points="100" minus="0" outcome="accepted" />
+      <problem id="01-1" points="100" minus="0" outcome="accepted" />
+      <problem id="01-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="01-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-3" points="24" minus="0" outcome="accepted" />
+      <problem id="02-R" points="236" minus="0" outcome="accepted" />
+      <problem id="03-1" points="100" minus="0" outcome="accepted" />
+      <problem id="03-2" points="100" minus="0" outcome="accepted" />
+      <problem id="03-3" points="18" minus="0" outcome="accepted" />
+      <problem id="03-4" points="0" minus="0" outcome="not-submitted" />
+      <problem id="06-1" points="1" minus="0" outcome="accepted" />
+      <problem id="06-2" points="4" minus="0" outcome="accepted" />
+      <problem id="06-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-2" points="69" minus="0" outcome="accepted" />
+      <problem id="07-3" points="22" minus="0" outcome="accepted" />
+      <problem id="08-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-2" points="0" minus="0" outcome="accepted" />
+      <problem id="08-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="09-1" points="20" minus="0" outcome="accepted" />
+      <problem id="09-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="10-R" points="68" minus="0" outcome="accepted" />
+      <problem id="12-X" points="100" minus="0" outcome="accepted" />
+      <problem id="12-Y" points="30" minus="0" outcome="accepted" />
+      <problem id="12-Z" points="29" minus="0" outcome="accepted" />
+      <problem id="13-1" points="20" minus="0" outcome="accepted" />
+      <problem id="13-2" points="0" minus="0" outcome="not-submitted" />
+    </contestant>
+    <contestant id="VAV">
+      <problem id="29-1" points="38" minus="0" outcome="accepted" />
+      <problem id="29-2" points="0" minus="0" outcome="accepted" />
+      <problem id="29-3" points="100" minus="0" outcome="accepted" />
+      <problem id="30-1" points="11" minus="0" outcome="accepted" />
+      <problem id="30-2" points="0" minus="0" outcome="accepted" />
+      <problem id="30-3" points="64" minus="25" outcome="accepted" />
+      <problem id="01-1" points="44" minus="0" outcome="accepted" />
+      <problem id="01-2" points="26" minus="0" outcome="accepted" />
+      <problem id="01-3" points="32" minus="0" outcome="accepted" />
+      <problem id="02-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-R" points="269" minus="0" outcome="accepted" />
+      <problem id="03-1" points="40" minus="0" outcome="accepted" />
+      <problem id="03-2" points="23" minus="0" outcome="accepted" />
+      <problem id="03-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="03-4" points="0" minus="0" outcome="not-submitted" />
+      <problem id="06-1" points="1" minus="0" outcome="accepted" />
+      <problem id="06-2" points="0" minus="0" outcome="accepted" />
+      <problem id="06-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-1" points="15" minus="0" outcome="accepted" />
+      <problem id="07-2" points="13" minus="0" outcome="accepted" />
+      <problem id="07-3" points="22" minus="0" outcome="accepted" />
+      <problem id="08-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-2" points="8" minus="25" outcome="accepted" />
+      <problem id="08-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="09-1" points="25" minus="0" outcome="accepted" />
+      <problem id="09-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="10-R" points="15" minus="0" outcome="accepted" />
+      <problem id="12-X" points="47" minus="0" outcome="accepted" />
+      <problem id="12-Y" points="25" minus="0" outcome="accepted" />
+      <problem id="12-Z" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-2" points="23" minus="0" outcome="accepted" />
+    </contestant>
+    <contestant id="MAX">
+      <problem id="29-1" points="100" minus="0" outcome="accepted" />
+      <problem id="29-2" points="100" minus="0" outcome="accepted" />
+      <problem id="29-3" points="100" minus="0" outcome="accepted" />
+      <problem id="30-1" points="100" minus="0" outcome="accepted" />
+      <problem id="30-2" points="100" minus="0" outcome="accepted" />
+      <problem id="30-3" points="100" minus="0" outcome="accepted" />
+      <problem id="01-1" points="100" minus="0" outcome="accepted" />
+      <problem id="01-2" points="100" minus="0" outcome="accepted" />
+      <problem id="01-3" points="100" minus="0" outcome="accepted" />
+      <problem id="02-1" points="100" minus="0" outcome="accepted" />
+      <problem id="02-2" points="100" minus="0" outcome="accepted" />
+      <problem id="02-3" points="100" minus="0" outcome="accepted" />
+      <problem id="02-R" points="0" minus="0" outcome="not-submitted" />
+      <problem id="03-1" points="100" minus="0" outcome="accepted" />
+      <problem id="03-2" points="100" minus="0" outcome="accepted" />
+      <problem id="03-3" points="100" minus="0" outcome="accepted" />
+      <problem id="03-4" points="100" minus="0" outcome="accepted" />
+      <problem id="06-1" points="100" minus="0" outcome="accepted" />
+      <problem id="06-2" points="30" minus="0" outcome="accepted" />
+      <problem id="06-3" points="100" minus="0" outcome="accepted" />
+      <problem id="07-1" points="100" minus="0" outcome="accepted" />
+      <problem id="07-2" points="100" minus="0" outcome="accepted" />
+      <problem id="07-3" points="100" minus="0" outcome="accepted" />
+      <problem id="08-1" points="100" minus="0" outcome="accepted" />
+      <problem id="08-2" points="100" minus="0" outcome="accepted" />
+      <problem id="08-3" points="100" minus="0" outcome="accepted" />
+      <problem id="09-1" points="100" minus="0" outcome="accepted" />
+      <problem id="09-2" points="100" minus="0" outcome="accepted" />
+      <problem id="10-R" points="0" minus="0" outcome="not-submitted" />
+      <problem id="12-X" points="100" minus="0" outcome="accepted" />
+      <problem id="12-Y" points="100" minus="0" outcome="accepted" />
+      <problem id="12-Z" points="100" minus="0" outcome="accepted" />
+      <problem id="13-1" points="100" minus="0" outcome="accepted" />
+      <problem id="13-2" points="100" minus="0" outcome="accepted" />
+    </contestant>
+    <contestant id="RAI">
+      <problem id="29-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="29-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="29-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="30-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="30-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="30-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="01-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="01-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="01-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-R" points="0" minus="0" outcome="not-submitted" />
+      <problem id="03-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="03-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="03-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="03-4" points="0" minus="0" outcome="not-submitted" />
+      <problem id="06-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="06-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="06-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="09-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="09-2" points="47" minus="0" outcome="accepted" />
+      <problem id="10-R" points="865" minus="0" outcome="accepted" />
+      <problem id="12-X" points="0" minus="0" outcome="not-submitted" />
+      <problem id="12-Y" points="0" minus="0" outcome="not-submitted" />
+      <problem id="12-Z" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-1" points="80" minus="0" outcome="accepted" />
+      <problem id="13-2" points="100" minus="0" outcome="accepted" />
+    </contestant>
+    <contestant id="EPV">
+      <problem id="29-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="29-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="29-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="30-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="30-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="30-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="01-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="01-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="01-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="02-R" points="0" minus="0" outcome="not-submitted" />
+      <problem id="03-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="03-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="03-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="03-4" points="0" minus="0" outcome="not-submitted" />
+      <problem id="06-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="06-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="06-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="07-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-2" points="0" minus="0" outcome="not-submitted" />
+      <problem id="08-3" points="0" minus="0" outcome="not-submitted" />
+      <problem id="09-1" points="0" minus="0" outcome="not-submitted" />
+      <problem id="09-2" points="47" minus="0" outcome="accepted" />
+      <problem id="10-R" points="465" minus="0" outcome="accepted" />
+      <problem id="12-X" points="0" minus="0" outcome="not-submitted" />
+      <problem id="12-Y" points="0" minus="0" outcome="not-submitted" />
+      <problem id="12-Z" points="0" minus="0" outcome="not-submitted" />
+      <problem id="13-1" points="20" minus="0" outcome="accepted" />
+      <problem id="13-2" points="19" minus="0" outcome="accepted" />
+    </contestant>
+  </contestants>
+</results>

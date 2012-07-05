@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<results>
+  <problems>
+    <problem id="02-A" type="P"/>
+    <problem id="02-C" type="P"/>
+    <problem id="03-A" type="O"/>
+  </problems>
+  <contestants>
+    <contestant id="EPV" location="1">
+      <problem id="02-A" points="80" minus="0" outcome="accepted"/>
+      <problem id="02-C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="03-A" points="0" minus="0" outcome="not-submitted"/>
+    </contestant>
+    <contestant id="RAI">
+      <problem id="02-A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="02-C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="03-A" points="32" minus="10" outcome="accepted"/>
+    </contestant>
+    <contestant id="VLA">
+      <problem id="02-A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="02-C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="03-A" points="0" minus="0" outcome="compilation-error"/>
+    </contestant>
+    <contestant id="RLN">
+      <problem id="02-A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="02-C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="03-A" points="0" minus="0" outcome="not-submitted"/>
+    </contestant>
+  </contestants>
+</results>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<standings
+  ije-version="5.0 RC2"
+  time="759"
+  status="Running"
+  start="30"
+  length="10000"
+  title="Test ACM contest"
+  penalty="20"
+  showtest="True"
+  showcomment="True"
+  monitor="example_monitor.xml"
+  submits="example_submits.xml"
+  nsubmits="9"
+>
+  <problems>
+    <problem id="02.A" name="02.Aname"/>
+    <problem id="03.A" name="03.Aname"/>
+  </problems>
+  <parties>
+    <party id="EPV" name="EPVname" password="epvpw" solved="0" time="0">
+      <problem id="02.A" solved="0" time="0">
+      </problem>
+      <problem id="03.A" solved="0" time="0">
+      </problem>
+    </party>
+    <party id="VLA" name="VLAname" password="vlapw" solved="0" time="0">
+      <problem id="02.A" solved="-9" time="0">
+        <submit id="1" party="VLA" problem="02.A" language-id="PAS" time="713" outcome="partial-correct-1" test="5" comment="(1) Ну он крут! N=10"/>
+        <submit id="2" party="VLA" problem="02.A" language-id="PAS" time="714" outcome="partial-correct-1" test="5" comment="(1) Ну он крут! N=10"/>
+        <submit id="3" party="VLA" problem="02.A" language-id="PAS" time="715" outcome="partial-correct-1" test="5" comment="(1) Ну он крут! N=10"/>
+        <submit id="4" party="VLA" problem="02.A" language-id="PAS" time="715" outcome="partial-correct-1" test="5" comment="(1) Ну он крут! N=10"/>
+        <submit id="5" party="VLA" problem="02.A" language-id="PAS" time="715" outcome="partial-correct-1" test="5" comment="(1) Ну он крут! N=10"/>
+        <submit id="6" party="VLA" problem="02.A" language-id="PAS" time="716" outcome="partial-correct-1" test="5" comment="(1) Ну он крут! N=10"/>
+        <submit id="7" party="VLA" problem="02.A" language-id="PAS" time="735" outcome="partial-correct-1" test="5" comment="(1) Ну он крут! N=10"/>
+        <submit id="8" party="VLA" problem="02.A" language-id="PAS" time="736" outcome="partial-correct-1" test="5" comment="(1) Ну он крут! N=10"/>
+        <submit id="9" party="VLA" problem="02.A" language-id="PAS" time="737" outcome="partial-correct-1" test="5" comment="(1) Ну он крут! N=10"/>
+      </problem>
+      <problem id="03.A" solved="0" time="0">
+      </problem>
+    </party>
+    <party id="RAI" name="RAIname" password="raipw" solved="0" time="0">
+      <problem id="02.A" solved="0" time="0">
+      </problem>
+      <problem id="03.A" solved="0" time="0">
+      </problem>
+    </party>
+  </parties>
+</standings>

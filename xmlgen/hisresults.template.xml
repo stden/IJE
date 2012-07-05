@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- 
+This file is part of IJE: the Integrated Judging Environment system 
+$Id: hisresults.template.xml 61 2006-05-07 17:15:25Z *KAP* $
+-->
+<!--
+     tHisResults=array[1..maxtests] of record
+                    res:tResult;
+                    text:string;
+                    evaltext:string;
+                 end;   
+-->
+<hisresults _typename="HisResults">
+  <test _array="i=.ntests" 
+    res="{.test[i].res:result:%s}"
+    text="{.test[i].text:string:%s}"
+    evaltext="{.test[i].evaltext:string:%s}"
+  />
+</hisresults>

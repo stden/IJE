@@ -1,0 +1,20 @@
+<kirov-contest 
+ start="19715820" 
+ length="20000" 
+ title="Test Kirov contest 2"
+ penalty="20"
+ showtests="true"
+ showcomments="true"
+ monitor="kexample2_monitor.xml"
+ submits="kexample2_submits.xml"
+ >
+  <problems>
+    <problem id="02.A" name="12.Aname" />
+    <problem id="03.A" name="13.Aname"/>
+  </problems>
+  <parties>
+     <party id="EPV" name="EPVname" password="epvpw" />
+     <party id="VLA" name="VLAname" password="vlapw" />
+     <party id="RAI" name="RAIname" password="raipw" />
+  </parties>
+</kirov-contest>

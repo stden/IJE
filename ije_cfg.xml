@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<ije-configuration
+  testing-path="testdir\"
+  problems-path="tests\"
+  solutions-path="sols\"
+  acm-solutions-path="sols_acm\"
+  results-path="results\"
+  dll-path="dll\"
+  reports-path="reports\"
+  macs-path="macs\"
+  archive-path="archive\"
+  run-dll="launcher\"
+  idle-limit="5s"
+  idle-percent="1"
+  solutions-format="@@@##_$"
+  acm-solutions-format="@@@##_$_%%%%_^^^" 
+  problems-format="##.$"
+  table-dll="xml"
+>
+  <default-cmdline
+    test-client="-console -ll 3 -ssp 10000 -sdp 10001 -tsp 10002 -tdp 10003 -usp 10004 -udp 10005"
+    server="-ll 3 -ssp 10000 -sdp 10001 -tsp 10002 -tdp 10003 -usp 10004 -udp 10005"
+    user-interface-classic="-ll 3  -ssp 10000 -sdp 10001 -tsp 10002 -tdp 10003 -usp 10004 -udp 10005"
+  />
+  <languages>
+    <language command-line="c:\bp\bin\bpc.exe @" ide="c:\bp\bin\bp.exe @" id="pas" name="Borland Pascal 7.0"/>
+    <language command-line="C:\FP\bin\i386-win32\fpc.exe @" ide="@" id="pp" name="Free Pascal 2.2.4"/>
+    <language command-line="dcc32.exe @" ide="@" id="dpr" name="Borland Delphi"/>
+  </languages>
+</ije-configuration>

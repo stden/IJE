@@ -1,0 +1,22 @@
+<rw-contest 
+ start="625" 
+ length="200" 
+ title="Test RW contest"
+ penalty-coeff="0.667"
+ base-results="results"
+ showtests="true"
+ showcomments="true"
+ monitor="rwexample_monitor.xml"
+ submits="rwxample_submits.xml"
+ >
+  <problems>
+    <problem id="02.A" name="12.Aname" />
+    <problem id="03.A" name="13.Aname"/>
+  </problems>
+  <parties>
+     <party id="EPV" name="EPVname" password="epvpw" />
+     <party id="VLA" name="VLAname" password="vlapw" />
+     <party id="RAI" name="RAIname" password="raipw" />
+     <party id="RLN" name="RLNname" password="rlnpw" />
+  </parties>
+</rw-contest>

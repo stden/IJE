@@ -1,0 +1,21 @@
+div.sort{
+  width:100%;
+  font-size:80%;
+  text-align:right;
+  padding-bottom:5px;
+  padding-top:0px;
+}
+table.tests{
+  width:100%;
+  border:1px solid #220055;
+  font-size:90%;
+}
+table.tests_{
+  width:100%;
+  border:1px solid #220055;
+  border-bottom:0px solid #220055;
+  font-size:90%;
+}
+font.msgdetails{
+  font-size:80%;
+}

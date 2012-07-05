@@ -1,0 +1,20 @@
+<acm-contest 
+ start="30" 
+ length="10000" 
+ title="Test ACM contest"
+ penalty="20"
+ showtest="true"
+ showcomment="true"
+ monitor="example_monitor.xml"
+ submits="example_submits.xml"
+ >
+  <problems>
+    <problem id="02.A" name="02.Aname" />
+    <problem id="03.A" name="03.Aname"/>
+  </problems>
+  <parties>
+     <party id="EPV" name="EPVname" password="epvpw" />
+     <party id="VLA" name="VLAname" password="vlapw" />
+     <party id="RAI" name="RAIname" password="raipw" />
+  </parties>
+</acm-contest>

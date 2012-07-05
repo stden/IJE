@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- 
+This file is part of IJE: the Integrated Judging Environment system 
+$Id: RWACMmonitor.template.xml 185 2007-07-15 07:50:45Z kap $
+-->
+<!--
+    tRWACMmonitor=record
+      qcfg:tKirovACmsettings;
+      submits:tKirovACMsubmits;
+      ije_ver:string;
+      contest_time:integer;
+      status:string;
+      attempts,pts:array[1..maxboys,0..maxtasks] of integer;
+    end;
+-->
+<standings _typename="RWACMmonitor"
+  ije-version="{.ije_ver:string:%s}" 
+  time="{.contest_time:integer:%d}" 
+  status="{.status:string:%s}" 
+  start="{.qcfg.start:integer:%d}" 
+  length="{.qcfg.length:integer:%d}" 
+  title="{.qcfg.title:string:%s}"
+  showtests="{.qcfg.showtests:boolean:%s}"
+  showcomments="{.qcfg.showcomments:boolean:%s}"
+  penalty-coeff="{.qcfg.coeff:float:%10.10f}"
+  monitor="{.qcfg.monitorFile:string:%s}"
+  submits="{.qcfg.submitsFile:string:%s}"
+  nsubmits="{.submits.nsubmit:integer:%d}">
+  <problems>
+    <problem _array="i=.qcfg.ntask" id="{.qcfg.task[i].id:string:%s}" name="{.qcfg.task[i].name:string:%s}" _optional="1"/>
+  </problems>
+  <parties>
+     <party _array="j=.qcfg.nparty" id="{.qcfg.party[j].id:string:%s}" 
+                               name="{.qcfg.party[j].name:string:%s}" 
+                               password="{.qcfg.party[j].pwd:string:%s}" 
+                               points="{.pts[j,0]:integer:%d}" 
+                               _optional="1">
+        <problem _array="k=.qcfg.ntask" _find=".qcfg.task[k].id=id" _max=".qcfg.ntask" _optional="1"
+                                          id="{.qcfg.task[k].id:string:%s}" 
+                                          attempts="{.attempts[j,k]:integer:%d}" 
+                                          points="{.pts[j,k]:integer:%d}" 
+                                          >
+          <submit _array="l=.submits.nsubmit" _optional="1"  _array_preload="id"
+                  _select="(.submits.s[l].party=.qcfg.party[j].id) and (.submits.s[l].task=.qcfg.task[k].id)"
+                  id="{.submits.s[l].id:integer:%d}" 
+                  party="{.submits.s[l].party:string:%s}" 
+                  problem="{.submits.s[l].task:string:%s}" 
+                  language-id="{.submits.s[l].lang:string:%s}" 
+                  time="{.submits.s[l].time:integer:%d}" 
+                  
+                  points="{.submits.s[l].pts:integer:%d}" 
+                  >
+            <test _array="m=.submits.s[l].tr.ntests" 
+                    outcome="{.submits.s[l].tr.test[m].res:result:%s}" 
+                    comment="{.submits.s[l].tr.test[m].text:string:%s}" 
+                    eval-comment="{.submits.s[l].tr.test[m].evaltext:string:%s}" 
+                    points="{.submits.s[l].tr.test[m].pts:integer:%d}" 
+                    max-points="{.submits.s[l].tr.test[m].max:integer:%d}"
+                    id="{m:integer:%d:ignoreload}"
+                    />
+          </submit>
+        </problem>
+     </party>
+  </parties>
+</standings>

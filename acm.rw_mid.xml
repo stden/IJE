@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<rw-contest 
+ start="540" 
+ length="600" 
+ title="Тур дописывания средних"
+ penalty-coeff="0.5"
+ base-results="mid"
+ showtests="true"
+ showcomments="true"
+ monitor="rw_mid_monitor.xml"
+ submits="rw_mid_submits.xml"
+ >
+  <problems>
+    <problem id="27.1" name="Батон"/>
+    <problem id="27.2" name="А ты купи коня!"/>
+    <problem id="27.3" name="Кофе"/>
+    <problem id="28.1" name="Коды скобок"/>
+    <problem id="28.2" name="Разнообразие"/>
+    <problem id="28.3" name="Марсианская система"/>
+    <problem id="29.1" name="Змейка"/>
+    <problem id="29.2" name="Открытка и конверт"/>
+    <problem id="29.3" name="Разложение на простые множители"/>
+    <problem id="29.4" name="Длинное деление"/>
+    <problem id="11.A" name="Пересечение прямых"/>
+    <problem id="11.B" name="Сортировка точек"/>
+    <problem id="11.C" name="Уравнение"/>
+    <problem id="13.A" name="КМП"/>
+    <problem id="13.B" name="Сдвиги"/>
+    <problem id="13.C" name="Круговая оборона"/>
+  </problems>
+  <parties>
+    <party id="MAA" name="MAA" password=""/>
+    <party id="ZIA" name="ZIA" password=""/>
+    <party id="KRK" name="KRK" password=""/>
+    <party id="BOE" name="BOE" password=""/>
+    <party id="FAS" name="FAS" password=""/>
+    <party id="NIV" name="NIV" password=""/>
+    <party id="ZOU" name="ZOU" password=""/>
+    <party id="GRE" name="GRE" password=""/>
+    <party id="PON" name="PON" password=""/>
+  </parties>
+</rw-contest>

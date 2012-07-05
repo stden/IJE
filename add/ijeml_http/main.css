@@ -1,0 +1,69 @@
+body,td{
+  font-family:verdana, tahoma, Helvetic;
+  color:#220055;
+}
+body{
+  background:#ffffff;
+}
+
+table{
+  background:#fbf8ff;
+}
+table.top{
+  font-size:90%;
+  border:1px solid #220055;
+  background:#f3eeff;
+}  
+table.hrefs{
+  border-left:1px solid #220055;
+  border-right:1px solid #220055;
+  border-bottom:1px solid #220055;
+  font-size:80%;
+  background:#f3eeff;
+}
+td.href,td.login{
+  padding-top:1pt;
+  margin-bottom:1px;
+}
+td.login{
+  border-left:1px solid #220055;
+  border-right:1px solid #220055;
+}  
+font.disabled{
+  color:#8877aa;
+}
+a:link,a:visited{
+  color:#220055;
+}
+a:hover{
+  color:#220055;
+  text-decoration:none;
+}
+h1{
+  font-size:110%;
+  margin-bottom:10px;
+  margin-top:10px;
+}
+h2{
+  font-size:100%;
+  font-weight:bold;
+  margin-bottom:3px;
+  margin-top:15px;
+}
+table.main{
+  margin-top:10px;
+  padding:5px;
+  border:1px solid #220055;
+}
+div.sub{
+  margin-top:10px;
+  text-align:right;
+  font-size:70%;
+}
+font.att{
+  color:770033;
+  font-weight:bold;
+}
+td.loginimg{
+  padding-right:30px;
+}

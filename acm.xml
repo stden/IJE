@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<acm-contests reports-path="reports_acm\" dst="1">
+  <acm-contest qacm-dll="kirov" settings="acm.kirov_nnoi6.xml"/>
+</acm-contests>

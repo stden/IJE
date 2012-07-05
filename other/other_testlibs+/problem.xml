@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<problem 
+    version="1.0"
+    id = "roi.2006.reform"
+>
+    <judging>
+        <script type = "%ioi">
+            <testset
+                name = "preliminary"
+
+                input-name  = "reform.in"
+                output-name = "reform.out"
+                input-href  = "preliminary/##"
+                answer-href = "preliminary/##.a"
+
+                time-limit = "2s"
+                memory-limit = "67108864"
+            >
+                <test points = "0" comment="Первый тест из примера"/>
+                <test points = "0" comment="Второй тест из примера"/>
+            </testset>
+
+            <testset
+                name = "main"
+
+                input-name  = "reform.in"
+                output-name = "reform.out"
+                input-href  = "tests/##"
+                answer-href = "tests/##.a"
+
+                time-limit = "2s"
+                memory-limit = "67108864"
+            >
+                <test points ="0" comment=""/>
+            </testset>
+
+            <verifier type="%testlib">
+                <binary executable-id = "x86.exe.win32" file = "check.exe" />
+            </verifier>
+        </script>
+    </judging>
+</problem>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<standings
+  ije-version="5.0"
+  time="11"
+  status="Running"
+  start="21129532"
+  length="144000"
+  title="6 Нижегородская городская"
+  penalty="0"
+  showtests="True"
+  showcomments="True"
+  monitor="6nnoi_monitor.xml"
+  submits="6nnoi_submits.xml"
+  nsubmits="6"
+>
+  <problems>
+    <problem id="01.1" name="Метро"/>
+    <problem id="01.2" name="Автомат со сдачей"/>
+    <problem id="01.3" name="Логарифм"/>
+    <problem id="01.4" name="Шарики"/>
+    <problem id="01.5" name="Совершенно секретно"/>
+    <problem id="01.6" name="Шифр"/>
+  </problems>
+  <parties>
+    <party id="KAN" name="" password="" points="0">
+      <problem id="01.1" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="01.2" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="01.3" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="01.4" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="01.5" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="01.6" attempts="0" points="0" max-points="0">
+      </problem>
+    </party>
+    <party id="MAX" name="" password="a1a" points="600">
+      <problem id="01.1" attempts="1" points="100" max-points="100">
+        <submit id="1" party="MAX" problem="01.1" language-id="PAS" time="8" points="100" max-points="100">
+          <test outcome="accepted" comment="1" eval-comment="" points="3" max-points="3" id="1"/>
+          <test outcome="accepted" comment="1" eval-comment="" points="4" max-points="4" id="2"/>
+          <test outcome="accepted" comment="1" eval-comment="" points="4" max-points="4" id="3"/>
+          <test outcome="accepted" comment="0" eval-comment="" points="3" max-points="3" id="4"/>
+          <test outcome="accepted" comment="0" eval-comment="" points="3" max-points="3" id="5"/>
+          <test outcome="accepted" comment="1" eval-comment="" points="4" max-points="4" id="6"/>
+          <test outcome="accepted" comment="0" eval-comment="" points="4" max-points="4" id="7"/>
+          <test outcome="accepted" comment="45" eval-comment="" points="4" max-points="4" id="8"/>
+          <test outcome="accepted" comment="197" eval-comment="" points="4" max-points="4" id="9"/>
+          <test outcome="accepted" comment="300" eval-comment="" points="4" max-points="4" id="10"/>
+          <test outcome="accepted" comment="141421357" eval-comment="" points="9" max-points="9" id="11"/>
+          <test outcome="accepted" comment="1" eval-comment="" points="4" max-points="4" id="12"/>
+          <test outcome="accepted" comment="1" eval-comment="" points="4" max-points="4" id="13"/>
+          <test outcome="accepted" comment="154335" eval-comment="" points="4" max-points="4" id="14"/>
+          <test outcome="accepted" comment="8333856" eval-comment="" points="9" max-points="9" id="15"/>
+          <test outcome="accepted" comment="33453154" eval-comment="" points="9" max-points="9" id="16"/>
+          <test outcome="accepted" comment="0" eval-comment="" points="3" max-points="3" id="17"/>
+          <test outcome="accepted" comment="0" eval-comment="" points="3" max-points="3" id="18"/>
+          <test outcome="accepted" comment="80000001" eval-comment="" points="9" max-points="9" id="19"/>
+          <test outcome="accepted" comment="47910427" eval-comment="" points="9" max-points="9" id="20"/>
+        </submit>
+      </problem>
+      <problem id="01.2" attempts="1" points="100" max-points="100">
+        <submit id="2" party="MAX" problem="01.2" language-id="PAS" time="8" points="100" max-points="100">
+          <test outcome="accepted" comment="0" eval-comment="" points="5" max-points="5" id="1"/>
+          <test outcome="accepted" comment="1" eval-comment="" points="5" max-points="5" id="2"/>
+          <test outcome="accepted" comment="2" eval-comment="" points="5" max-points="5" id="3"/>
+          <test outcome="accepted" comment="900" eval-comment="" points="5" max-points="5" id="4"/>
+          <test outcome="accepted" comment="50000" eval-comment="" points="5" max-points="5" id="5"/>
+          <test outcome="accepted" comment="950000" eval-comment="" points="5" max-points="5" id="6"/>
+          <test outcome="accepted" comment="1" eval-comment="" points="5" max-points="5" id="7"/>
+          <test outcome="accepted" comment="0" eval-comment="" points="5" max-points="5" id="8"/>
+          <test outcome="accepted" comment="0" eval-comment="" points="5" max-points="5" id="9"/>
+          <test outcome="accepted" comment="9000" eval-comment="" points="5" max-points="5" id="10"/>
+          <test outcome="accepted" comment="0" eval-comment="" points="5" max-points="5" id="11"/>
+          <test outcome="accepted" comment="0" eval-comment="" points="5" max-points="5" id="12"/>
+          <test outcome="accepted" comment="0" eval-comment="" points="5" max-points="5" id="13"/>
+          <test outcome="accepted" comment="12" eval-comment="" points="5" max-points="5" id="14"/>
+          <test outcome="accepted" comment="87" eval-comment="" points="5" max-points="5" id="15"/>
+          <test outcome="accepted" comment="7330" eval-comment="" points="5" max-points="5" id="16"/>
+          <test outcome="accepted" comment="7128" eval-comment="" points="5" max-points="5" id="17"/>
+          <test outcome="accepted" comment="222079" eval-comment="" points="5" max-points="5" id="18"/>
+          <test outcome="accepted" comment="224742" eval-comment="" points="5" max-points="5" id="19"/>
+          <test outcome="accepted" comment="348693" eval-comment="" points="5" max-points="5" id="20"/>
+        </submit>
+      </problem>
+      <problem id="01.3" attempts="1" points="100" max-points="100">
+        <submit id="3" party="MAX" problem="01.3" language-id="PAS" time="10" points="100" max-points="100">
+          <test outcome="accepted" comment="1" eval-comment="" points="5" max-points="5" id="1"/>
+          <test outcome="accepted" comment="0" eval-comment="" points="5" max-points="5" id="2"/>
+          <test outcome="accepted" comment="29" eval-comment="" points="5" max-points="5" id="3"/>
+          <test outcome="accepted" comment="7" eval-comment="" points="5" max-points="5" id="4"/>
+          <test outcome="accepted" comment="4" eval-comment="" points="5" max-points="5" id="5"/>
+          <test outcome="accepted" comment="0" eval-comment="" points="5" max-points="5" id="6"/>
+          <test outcome="accepted" comment="5" eval-comment="" points="5" max-points="5" id="7"/>
+          <test outcome="accepted" comment="5" eval-comment="" points="5" max-points="5" id="8"/>
+          <test outcome="accepted" comment="52" eval-comment="" points="5" max-points="5" id="9"/>
+          <test outcome="accepted" comment="43" eval-comment="" points="5" max-points="5" id="10"/>
+          <test outcome="accepted" comment="7" eval-comment="" points="5" max-points="5" id="11"/>
+          <test outcome="accepted" comment="21" eval-comment="" points="5" max-points="5" id="12"/>
+          <test outcome="accepted" comment="46" eval-comment="" points="5" max-points="5" id="13"/>
+          <test outcome="accepted" comment="7" eval-comment="" points="5" max-points="5" id="14"/>
+          <test outcome="accepted" comment="12" eval-comment="" points="5" max-points="5" id="15"/>
+          <test outcome="accepted" comment="18" eval-comment="" points="5" max-points="5" id="16"/>
+          <test outcome="accepted" comment="44" eval-comment="" points="5" max-points="5" id="17"/>
+          <test outcome="accepted" comment="35" eval-comment="" points="5" max-points="5" id="18"/>
+          <test outcome="accepted" comment="71" eval-comment="" points="5" max-points="5" id="19"/>
+          <test outcome="accepted" comment="332" eval-comment="" points="5" max-points="5" id="20"/>
+        </submit>
+      </problem>
+      <problem id="01.4" attempts="1" points="100" max-points="100">
+        <submit id="4" party="MAX" problem="01.4" language-id="PAS" time="10" points="100" max-points="100">
+          <test outcome="accepted" comment="" eval-comment="" points="1" max-points="1" id="1"/>
+          <test outcome="accepted" comment="" eval-comment="" points="2" max-points="2" id="2"/>
+          <test outcome="accepted" comment="" eval-comment="" points="2" max-points="2" id="3"/>
+          <test outcome="accepted" comment="" eval-comment="" points="4" max-points="4" id="4"/>
+          <test outcome="accepted" comment="" eval-comment="" points="4" max-points="4" id="5"/>
+          <test outcome="accepted" comment="" eval-comment="" points="5" max-points="5" id="6"/>
+          <test outcome="accepted" comment="" eval-comment="" points="5" max-points="5" id="7"/>
+          <test outcome="accepted" comment="" eval-comment="" points="5" max-points="5" id="8"/>
+          <test outcome="accepted" comment="" eval-comment="" points="5" max-points="5" id="9"/>
+          <test outcome="accepted" comment="" eval-comment="" points="5" max-points="5" id="10"/>
+          <test outcome="accepted" comment="" eval-comment="" points="5" max-points="5" id="11"/>
+          <test outcome="accepted" comment="" eval-comment="" points="5" max-points="5" id="12"/>
+          <test outcome="accepted" comment="" eval-comment="" points="5" max-points="5" id="13"/>
+          <test outcome="accepted" comment="" eval-comment="" points="5" max-points="5" id="14"/>
+          <test outcome="accepted" comment="" eval-comment="" points="7" max-points="7" id="15"/>
+          <test outcome="accepted" comment="" eval-comment="" points="7" max-points="7" id="16"/>
+          <test outcome="accepted" comment="" eval-comment="" points="7" max-points="7" id="17"/>
+          <test outcome="accepted" comment="" eval-comment="" points="7" max-points="7" id="18"/>
+          <test outcome="accepted" comment="" eval-comment="" points="7" max-points="7" id="19"/>
+          <test outcome="accepted" comment="" eval-comment="" points="7" max-points="7" id="20"/>
+        </submit>
+      </problem>
+      <problem id="01.5" attempts="1" points="100" max-points="100">
+        <submit id="5" party="MAX" problem="01.5" language-id="PAS" time="10" points="100" max-points="100">
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="1"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="2"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="3"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="4"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="5"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="6"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="7"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="8"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="9"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="10"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="11"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="12"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="13"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="14"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="15"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="16"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="17"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="18"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="19"/>
+          <test outcome="accepted" comment="Matching is ok" eval-comment="" points="5" max-points="5" id="20"/>
+        </submit>
+      </problem>
+      <problem id="01.6" attempts="1" points="100" max-points="100">
+        <submit id="6" party="MAX" problem="01.6" language-id="PAS" time="10" points="100" max-points="100">
+          <test outcome="accepted" comment="N=1 (NO)" eval-comment="" points="1" max-points="1" id="1"/>
+          <test outcome="accepted" comment="N=3 (NO)" eval-comment="" points="2" max-points="2" id="2"/>
+          <test outcome="accepted" comment="N=3" eval-comment="" points="3" max-points="3" id="3"/>
+          <test outcome="accepted" comment="N=3" eval-comment="" points="3" max-points="3" id="4"/>
+          <test outcome="accepted" comment="N=1" eval-comment="" points="4" max-points="4" id="5"/>
+          <test outcome="accepted" comment="N=26" eval-comment="" points="3" max-points="3" id="6"/>
+          <test outcome="accepted" comment="N=10" eval-comment="" points="4" max-points="4" id="7"/>
+          <test outcome="accepted" comment="N=20" eval-comment="" points="4" max-points="4" id="8"/>
+          <test outcome="accepted" comment="N=20" eval-comment="" points="4" max-points="4" id="9"/>
+          <test outcome="accepted" comment="N=30" eval-comment="" points="5" max-points="5" id="10"/>
+          <test outcome="accepted" comment="N=100" eval-comment="" points="5" max-points="5" id="11"/>
+          <test outcome="accepted" comment="N=20" eval-comment="" points="6" max-points="6" id="12"/>
+          <test outcome="accepted" comment="N=20" eval-comment="" points="6" max-points="6" id="13"/>
+          <test outcome="accepted" comment="N=20 (NO)" eval-comment="" points="4" max-points="4" id="14"/>
+          <test outcome="accepted" comment="N=100" eval-comment="" points="6" max-points="6" id="15"/>
+          <test outcome="accepted" comment="N=257" eval-comment="" points="8" max-points="8" id="16"/>
+          <test outcome="accepted" comment="N=258" eval-comment="" points="8" max-points="8" id="17"/>
+          <test outcome="accepted" comment="N=498" eval-comment="" points="10" max-points="10" id="18"/>
+          <test outcome="accepted" comment="N=499 (NO)" eval-comment="" points="4" max-points="4" id="19"/>
+          <test outcome="accepted" comment="N=500" eval-comment="" points="10" max-points="10" id="20"/>
+        </submit>
+      </problem>
+    </party>
+  </parties>
+</standings>

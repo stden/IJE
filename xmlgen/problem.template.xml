@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- 
+This file is part of IJE: the Integrated Judging Environment system 
+$Id: problem.template.xml 61 2006-05-07 17:15:25Z *KAP* $
+-->
+<!--
+     tproblem=record
+                id:string;
+                name:string;
+                ntests:integer;
+                tests:array[1..MaxTests] of tTest;
+                input_name:string;
+                output_name:string;
+                input_href,
+                answer_href:string;
+                verifier,evaluator:string;
+                time_limit,memory_limit:longint;
+              end;
+-->
+<problem 
+  _addvarload="raw_points:array[1..maxtests] of string;raw_eval:array[1..maxtests] of string"
+  _addvarsave="raw_points:array[1..maxtests] of string;raw_eval:array[1..maxtests] of string"
+  _afterload="for i:=1 to .ntests do begin|   ExplodeArray(raw_points[i],.test[i].points);|   ExplodeArray(raw_eval[i],.test[i].evalt);|   MakeTestFileName(.input_href,i,.test[i].input_href);|   MakeTestFileName(.answer_href,i,.test[i].answer_href);|end;"
+  _befsave="for i:=1 to .ntests do begin|    ImplodeArray(.test[i].points,raw_points[i]);|    ImplodeArray(.test[i].evalt,raw_eval[i]);|end;"
+  _typename="Problem" 
+  id="{.id:string:%s}">
+  <name value="{.name:string:%s}" />
+  <judging>
+    <script type="%ioi">
+      <verifier type="%testlib">
+        <binary executable-id="x86.exe.win32" href="{.verifier:string:%s}" />
+      </verifier>
+      <evaluator type="%ije" _optional="1">
+        <binary _optional="1" executable-id="x86.exe.win32" href="{.evaluator:string:%s:optional}" />
+      </evaluator>
+      <testset
+         input-name="{.input_name:string:%s}"
+         output-name="{.output_name:string:%s}"
+         input-href="{.input_href:string:%s}"
+         answer-href="{.answer_href:string:%s}"
+         time-limit="{.tl:tl:%d}"
+         memory-limit="{.ml:ml:%d}"
+      >
+        <test _array="i=.ntests" points="{raw_points[i]:string:%s}" eval-types="{raw_eval[i]:string:%s:optional}" />
+      </testset>
+    </script>
+  </judging>
+</problem>

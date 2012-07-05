@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- 
+This file is part of IJE: the Integrated Judging Environment system 
+$Id: RWACMsettings.template.xml 185 2007-07-15 07:50:45Z kap $
+-->
+<!--
+    tRWACmsettings=record
+      start:integer;
+      length:integer;
+      title:string;
+      monitorFile:string;
+      submitsFile:string;
+      ntask:integer;
+      task:array[1..maxtasks] of record id,name:string; end;
+      nparty:integer;
+      party:array[1..maxboys] of record id,name,pwd:string; end;
+      //-
+      baserresults:string;
+      showtest,showcomment:boolean;
+    end;
+-->
+<rw-contest _typename="RWACMsettings"
+ start="{.start:integer:%d}" 
+ length="{.length:integer:%d}" 
+ title="{.title:string:%s}"
+ base-results="{.baseresults:string:%s}"
+ showtests="{.showtests:boolean:%s}"
+ showcomments="{.showcomments:boolean:%s}"
+ monitor="{.monitorFile:string:%s}"
+ submits="{.submitsFile:string:%s}"
+ penalty-coeff="{.coeff:float:%10.10f}"
+ >
+  <problems>
+    <problem _array="i=.ntask" id="{.task[i].id:string:%s}" name="{.task[i].name:string:%s}" _optional="1"/>
+  </problems>
+  <parties>
+     <party _array="j=.nparty" id="{.party[j].id:string:%s}" 
+                               name="{.party[j].name:string:%s}" 
+                               password="{.party[j].pwd:string:%s}" _optional="1"/>
+  </parties>
+</rw-contest>

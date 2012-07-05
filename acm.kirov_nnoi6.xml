@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<kirov-contest 
+ start="21129532" 
+ length="144000" 
+ title="6 Нижегородская городская"
+ penalty="0"
+ showtests="true"
+ showcomments="true"
+ monitor="6nnoi_monitor.xml"
+ submits="6nnoi_submits.xml"
+ >
+  <problems>
+    <problem id="01.1" name="Метро"/>
+    <problem id="01.2" name="Автомат со сдачей" />
+    <problem id="01.3" name="Логарифм" />
+    <problem id="01.4" name="Шарики" />
+    <problem id="01.5" name="Совершенно секретно" />
+    <problem id="01.6" name="Шифр" />
+  </problems>
+  <parties>
+     <party id="KAN" name="" password="" />
+     <party id="MAX" name="" password="a1a" />
+  </parties>
+</kirov-contest>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<standings
+  ije-version="5.0 RC2"
+  time="21353"
+  status="Running"
+  start="19721524"
+  length="28800"
+  title="Начинающие-2007"
+  penalty="0"
+  showtests="True"
+  showcomments="True"
+  monitor="beg_monitor.xml"
+  submits="beg_submits.xml"
+  nsubmits="0"
+>
+  <problems>
+    <problem id="27.A" name="Длинное сложение"/>
+    <problem id="29.A" name="Graph convert - I"/>
+    <problem id="29.B" name="Graph convert - II"/>
+    <problem id="29.C" name="Graph convert - III"/>
+    <problem id="29.D" name="Graph convert - IV"/>
+    <problem id="29.E" name="Graph convert - V"/>
+    <problem id="01.A" name="K-е простое число"/>
+    <problem id="04.1" name="Путь коня"/>
+    <problem id="07.3" name="Треугольник и точка"/>
+    <problem id="08.3" name="Тройная последовательность"/>
+    <problem id="11.C" name="Уравнение"/>
+  </problems>
+  <parties>
+    <party id="KAP" name="KAP" password="qwe" points="0">
+      <problem id="27.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.B" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.C" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.D" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.E" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="01.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="04.1" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="07.3" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="08.3" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="11.C" attempts="0" points="0" max-points="0">
+      </problem>
+    </party>
+    <party id="MUA" name="MUA" password="" points="0">
+      <problem id="27.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.B" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.C" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.D" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.E" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="01.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="04.1" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="07.3" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="08.3" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="11.C" attempts="0" points="0" max-points="0">
+      </problem>
+    </party>
+    <party id="KAN" name="KAN" password="" points="0">
+      <problem id="27.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.B" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.C" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.D" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.E" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="01.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="04.1" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="07.3" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="08.3" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="11.C" attempts="0" points="0" max-points="0">
+      </problem>
+    </party>
+    <party id="NIN" name="NIN" password="" points="0">
+      <problem id="27.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.B" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.C" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.D" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.E" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="01.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="04.1" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="07.3" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="08.3" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="11.C" attempts="0" points="0" max-points="0">
+      </problem>
+    </party>
+    <party id="NIV" name="NIV" password="" points="0">
+      <problem id="27.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.B" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.C" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.D" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.E" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="01.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="04.1" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="07.3" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="08.3" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="11.C" attempts="0" points="0" max-points="0">
+      </problem>
+    </party>
+    <party id="MIA" name="MIA" password="" points="0">
+      <problem id="27.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.B" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.C" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.D" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.E" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="01.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="04.1" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="07.3" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="08.3" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="11.C" attempts="0" points="0" max-points="0">
+      </problem>
+    </party>
+    <party id="OGI" name="OGI" password="" points="0">
+      <problem id="27.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.B" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.C" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.D" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="29.E" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="01.A" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="04.1" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="07.3" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="08.3" attempts="0" points="0" max-points="0">
+      </problem>
+      <problem id="11.C" attempts="0" points="0" max-points="0">
+      </problem>
+    </party>
+  </parties>
+</standings>

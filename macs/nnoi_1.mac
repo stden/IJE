@@ -1,0 +1,4 @@
+rload xml nnoi_0
+save xml nnoi
+mode add autoadd
+testmask * * *

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<results>
+  <problems>
+    <problem id="27.A" type="P"/>
+    <problem id="27.B" type="P"/>
+    <problem id="27.C" type="P"/>
+    <problem id="28.A" type="P"/>
+    <problem id="29.A" type="P"/>
+    <problem id="29.B" type="P"/>
+    <problem id="29.C" type="P"/>
+    <problem id="29.D" type="P"/>
+    <problem id="29.E" type="P"/>
+    <problem id="11.A" type="P"/>
+    <problem id="11.B" type="P"/>
+    <problem id="11.C" type="P"/>
+    <problem id="13.A" type="P"/>
+    <problem id="13.B" type="P"/>
+    <problem id="13.C" type="P"/>
+  </problems>
+  <contestants>
+    <contestant id="ZOU" _location="0">
+      <problem id="27.A" points="100" minus="0" outcome="accepted"/>
+      <problem id="27.B" points="100" minus="0" outcome="accepted"/>
+      <problem id="27.C" points="100" minus="0" outcome="accepted"/>
+      <problem id="28.A" points="0" minus="0" outcome="accepted"/>
+      <problem id="29.A" points="12" minus="0" outcome="accepted"/>
+      <problem id="29.B" points="12" minus="0" outcome="accepted"/>
+      <problem id="29.C" points="12" minus="0" outcome="accepted"/>
+      <problem id="29.D" points="0" minus="0" outcome="accepted"/>
+      <problem id="29.E" points="60" minus="0" outcome="accepted"/>
+      <problem id="11.A" points="50" minus="0" outcome="accepted"/>
+      <problem id="11.B" points="100" minus="0" outcome="accepted"/>
+      <problem id="11.C" points="48" minus="0" outcome="accepted"/>
+      <problem id="13.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.C" points="0" minus="0" outcome="not-submitted"/>
+    </contestant>
+    <contestant id="FAS" _location="0">
+      <problem id="27.A" points="29" minus="0" outcome="accepted"/>
+      <problem id="27.B" points="34" minus="0" outcome="accepted"/>
+      <problem id="27.C" points="10" minus="0" outcome="accepted"/>
+      <problem id="28.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.A" points="60" minus="0" outcome="accepted"/>
+      <problem id="29.B" points="12" minus="0" outcome="accepted"/>
+      <problem id="29.C" points="60" minus="0" outcome="accepted"/>
+      <problem id="29.D" points="0" minus="0" outcome="accepted"/>
+      <problem id="29.E" points="60" minus="0" outcome="accepted"/>
+      <problem id="11.A" points="84" minus="0" outcome="accepted"/>
+      <problem id="11.B" points="6" minus="0" outcome="accepted"/>
+      <problem id="11.C" points="63" minus="0" outcome="accepted"/>
+      <problem id="13.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.C" points="0" minus="0" outcome="not-submitted"/>
+    </contestant>
+    <contestant id="LUA" _location="0">
+      <problem id="27.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="27.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="27.C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="28.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.A" points="60" minus="0" outcome="accepted"/>
+      <problem id="29.B" points="12" minus="0" outcome="accepted"/>
+      <problem id="29.C" points="60" minus="0" outcome="accepted"/>
+      <problem id="29.D" points="6" minus="0" outcome="accepted"/>
+      <problem id="29.E" points="36" minus="0" outcome="accepted"/>
+      <problem id="11.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="11.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="11.C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.C" points="0" minus="0" outcome="not-submitted"/>
+    </contestant>
+    <contestant id="MAA" _location="0">
+      <problem id="27.A" points="0" minus="0" outcome="accepted"/>
+      <problem id="27.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="27.C" points="0" minus="0" outcome="accepted"/>
+      <problem id="28.A" points="0" minus="0" outcome="accepted"/>
+      <problem id="29.A" points="0" minus="0" outcome="accepted"/>
+      <problem id="29.B" points="0" minus="0" outcome="accepted"/>
+      <problem id="29.C" points="0" minus="0" outcome="accepted"/>
+      <problem id="29.D" points="0" minus="0" outcome="accepted"/>
+      <problem id="29.E" points="60" minus="0" outcome="accepted"/>
+      <problem id="11.A" points="0" minus="0" outcome="accepted"/>
+      <problem id="11.B" points="100" minus="0" outcome="accepted"/>
+      <problem id="11.C" points="11" minus="0" outcome="accepted"/>
+      <problem id="13.A" points="16" minus="0" outcome="accepted"/>
+      <problem id="13.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.C" points="0" minus="0" outcome="accepted"/>
+    </contestant>
+    <contestant id="BOE" _location="0">
+      <problem id="27.A" points="100" minus="0" outcome="accepted"/>
+      <problem id="27.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="27.C" points="18" minus="0" outcome="accepted"/>
+      <problem id="28.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.D" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.E" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="11.A" points="26" minus="0" outcome="accepted"/>
+      <problem id="11.B" points="10" minus="0" outcome="accepted"/>
+      <problem id="11.C" points="40" minus="0" outcome="accepted"/>
+      <problem id="13.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.C" points="0" minus="0" outcome="not-submitted"/>
+    </contestant>
+    <contestant id="GOA" _location="0">
+      <problem id="27.A" points="0" minus="0" outcome="accepted"/>
+      <problem id="27.B" points="0" minus="0" outcome="accepted"/>
+      <problem id="27.C" points="0" minus="0" outcome="accepted"/>
+      <problem id="28.A" points="72" minus="0" outcome="accepted"/>
+      <problem id="29.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.D" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.E" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="11.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="11.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="11.C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.C" points="0" minus="0" outcome="not-submitted"/>
+    </contestant>
+    <contestant id="GRE" _location="0">
+      <problem id="27.A" points="0" minus="0" outcome="accepted"/>
+      <problem id="27.B" points="0" minus="0" outcome="accepted"/>
+      <problem id="27.C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="28.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.D" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.E" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="11.A" points="90" minus="0" outcome="accepted"/>
+      <problem id="11.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="11.C" points="30" minus="0" outcome="accepted"/>
+      <problem id="13.A" points="8" minus="0" outcome="accepted"/>
+      <problem id="13.B" points="18" minus="0" outcome="accepted"/>
+      <problem id="13.C" points="0" minus="0" outcome="not-submitted"/>
+    </contestant>
+    <contestant id="PON" _location="0">
+      <problem id="27.A" points="0" minus="0" outcome="accepted"/>
+      <problem id="27.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="27.C" points="0" minus="0" outcome="accepted"/>
+      <problem id="28.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.D" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.E" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="11.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="11.B" points="24" minus="0" outcome="accepted"/>
+      <problem id="11.C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.C" points="0" minus="0" outcome="not-submitted"/>
+    </contestant>
+    <contestant id="ZIA" _location="0">
+      <problem id="27.A" points="1" minus="0" outcome="accepted"/>
+      <problem id="27.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="27.C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="28.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.D" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.E" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="11.A" points="0" minus="0" outcome="accepted"/>
+      <problem id="11.B" points="0" minus="0" outcome="accepted"/>
+      <problem id="11.C" points="11" minus="0" outcome="accepted"/>
+      <problem id="13.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.C" points="0" minus="0" outcome="not-submitted"/>
+    </contestant>
+    <contestant id="KRK" _location="0">
+      <problem id="27.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="27.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="27.C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="28.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.D" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.E" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="11.A" points="37" minus="0" outcome="accepted"/>
+      <problem id="11.B" points="10" minus="0" outcome="accepted"/>
+      <problem id="11.C" points="62" minus="0" outcome="accepted"/>
+      <problem id="13.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.B" points="5" minus="0" outcome="accepted"/>
+      <problem id="13.C" points="0" minus="0" outcome="not-submitted"/>
+    </contestant>
+    <contestant id="NIV" _location="0">
+      <problem id="27.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="27.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="27.C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="28.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.C" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.D" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="29.E" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="11.A" points="24" minus="0" outcome="accepted"/>
+      <problem id="11.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="11.C" points="51" minus="0" outcome="accepted"/>
+      <problem id="13.A" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.B" points="0" minus="0" outcome="not-submitted"/>
+      <problem id="13.C" points="0" minus="0" outcome="not-submitted"/>
+    </contestant>
+  </contestants>
+</results>

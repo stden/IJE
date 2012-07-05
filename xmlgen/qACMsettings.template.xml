@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- 
+This file is part of IJE: the Integrated Judging Environment system 
+$Id: qACMsettings.template.xml 178 2007-06-28 13:55:42Z kap $
+-->
+<!--
+    tQACMsettings=record
+      ncont:integer;
+      cont:array[1..MAX_ACM_CONTESTS] of record qdll,fname:string; end;
+      repp:string;
+    end;
+-->
+<acm-contests _typename="QACMsettings" reports-path="{.repp:path:%s}" dst="{.dst:integer:%d}">
+  <acm-contest _array="i=.ncont" _optional="1"
+    qacm-dll="{.cont[i].qdll:string:%s}"
+    settings="{.cont[i].fname:string:%s}"
+  />
+</acm-contests>

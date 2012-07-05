@@ -1,0 +1,118 @@
+\usepackage[dvips]{graphicx}
+\usepackage[cp1251]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amssymb}
+\usepackage{problems_local}
+
+\textwidth=17cm
+\oddsidemargin=-0.8cm
+\topmargin=-1.5cm
+\headheight=0cm
+\headsep=0.8cm
+\textheight=25cm
+
+%---------- From package "lastpage" ------------------
+\def\lastpage@putlabel{\addtocounter{page}{-1}%
+   \immediate\write\@auxout{\string\newlabel{LastPage}{{}{\thepage}}}%
+   \addtocounter{page}{1}}
+\AtEndDocument{\clearpage\lastpage@putlabel}%
+%---------- end of "lastpage" ------------------
+
+\newcommand{\header}[1]{
+\par\vspace{0.3cm}%
+\noindent{\Large\bf\sffamily #1}\par\nopagebreak%
+\nopagebreak\vspace{0.2cm}%
+}
+
+\newcommand{\Header}[1]{
+\par\vspace{0.4cm}\pagebreak[2]
+\noindent{\LARGE\bf\sffamily #1}\nopagebreak\par\nopagebreak%
+\vspace{0.3cm}%
+}
+
+\newcommand{\problem}[7]{%
+\Header{Задача #1. #2}
+{\footnotesize
+\noindent\begin{tabular}{@{\it}l@{\hspace{0.7cm}}l}
+Входной файл&\tt #3\\
+Выходной файл&\tt #4\\
+Ограничение по времени&#5 с\\
+Максимальный балл за задачу&#6\\
+Пример названия программы&\tt #7\\
+\end{tabular}
+}\nopagebreak
+\vspace{0.3cm}\par
+}
+
+\newcommand{\inputformat}{
+\header{Формат входных данных}
+}
+
+\newcommand{\outputformat}{%
+\header{Формат выходных данных}
+}
+
+\newenvironment{sexample}[2]{\tt%
+\header{Пример}
+\noindent\begin{tabular}{|p{#1}|p{#2}|}
+\hline
+\rm\it Входной файл&\rm\it Выходной файл\\
+\hline
+}{%
+\\\hline
+\end{tabular}
+\par
+\rm\vspace{0.2cm}
+}
+
+\newenvironment{example}{%
+\begin{sexample}{7.7cm}{7.7cm}%
+}{%
+\end{sexample}%
+}
+
+\renewcommand{\@oddhead}{
+\vbox{%
+\hbox to \textwidth{%
+\footnotesize\strut\sf \olympiadname \hfill \olympiadplace, \olympiaddate%
+}
+\hrule
+}}
+
+\renewcommand{\@oddfoot}{%
+\vbox{%
+\hrule\vspace{0.1cm}%
+\hbox to \textwidth{%
+\sf\footnotesize%
+\hfill\strut Страница \thepage\ из \pageref{LastPage}\hfill%
+}}}
+
+\newcommand{\todo}[1]{\marginpar{! TODO:\\#1}}
+
+\newcommand{\eps}[3]{%
+\begin{wrapfigure}{#1}{#2}\includegraphics[width=#2]{#3}\end{wrapfigure}%
+}
+
+\newcommand{\IJE}{\raisebox{-0.4cm}{\includegraphics[width=2cm]{ije.eps}}}
+
+\renewcommand{\leq}{\leqslant}
+
+\newcommand{\unit}[1]{\mbox{ \rm #1}}
+
+\newcounter{tmp}
+
+\newenvironment{ulists}[1]{%
+\begin{list}{#1}{\parsep=0pt \itemsep=0pt}%
+}
+{\end{list}}
+
+\newenvironment{ulist}{%
+\begin{ulists}{$\bullet$}%
+}
+{\end{ulists}}
+
+\newenvironment{olist}{%
+\setcounter{tmp}{0}
+\begin{ulists}{\refstepcounter{tmp}\arabic{tmp}.}%
+}
+{\end{ulists}}
