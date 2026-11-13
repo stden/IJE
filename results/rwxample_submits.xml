@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<submits>
+  <submit party="VLA" problem="02.A" language-id="PAS" time="53" id="1" points="100">
+    <test outcome="accepted" comment="No: N=1" eval-comment="" points="3" max-points="3"/>
+    <test outcome="accepted" comment="No: N=2" eval-comment="" points="3" max-points="3"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=4" eval-comment="" points="3" max-points="3"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=7" eval-comment="" points="4" max-points="4"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=10" eval-comment="" points="4" max-points="4"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=50" eval-comment="" points="5" max-points="5"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=100" eval-comment="" points="6" max-points="6"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=150" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="10" max-points="10"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=199" eval-comment="" points="10" max-points="10"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="No: N=199" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="10" max-points="10"/>
+    <test outcome="accepted" comment="No: N=200" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="10" max-points="10"/>
+  </submit>
+  <submit party="EPV" problem="02.A" language-id="PAS" time="59" id="2" points="100">
+    <test outcome="accepted" comment="No: N=1" eval-comment="" points="3" max-points="3"/>
+    <test outcome="accepted" comment="No: N=2" eval-comment="" points="3" max-points="3"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=4" eval-comment="" points="3" max-points="3"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=7" eval-comment="" points="4" max-points="4"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=10" eval-comment="" points="4" max-points="4"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=50" eval-comment="" points="5" max-points="5"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=100" eval-comment="" points="6" max-points="6"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=150" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="10" max-points="10"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=199" eval-comment="" points="10" max-points="10"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="No: N=199" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="10" max-points="10"/>
+    <test outcome="accepted" comment="No: N=200" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="10" max-points="10"/>
+  </submit>
+  <submit party="RLN" problem="02.A" language-id="PAS" time="59" id="3" points="0">
+    <test outcome="compilation-error" comment="SOL.PAS(3): Error 10: Unexpected end of file." eval-comment="" points="0" max-points="100"/>
+  </submit>
+  <submit party="RLN" problem="02.A" language-id="PAS" time="60" id="4" points="0">
+    <test outcome="compilation-error" comment="SOL.PAS(1): Error 10: Unexpected end of file." eval-comment="" points="0" max-points="100"/>
+  </submit>
+  <submit party="RLN" problem="02.A" language-id="PAS" time="60" id="5" points="100">
+    <test outcome="accepted" comment="No: N=1" eval-comment="" points="3" max-points="3"/>
+    <test outcome="accepted" comment="No: N=2" eval-comment="" points="3" max-points="3"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=4" eval-comment="" points="3" max-points="3"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=7" eval-comment="" points="4" max-points="4"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=10" eval-comment="" points="4" max-points="4"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=50" eval-comment="" points="5" max-points="5"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=100" eval-comment="" points="6" max-points="6"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=150" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="10" max-points="10"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=199" eval-comment="" points="10" max-points="10"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="No: N=199" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="10" max-points="10"/>
+    <test outcome="accepted" comment="No: N=200" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="10" max-points="10"/>
+  </submit>
+  <submit party="RLN" problem="03.A" language-id="PAS" time="77" id="6" points="0">
+    <test outcome="fail" comment="TC Error in TC: LoadProblem(C:\07_loi\IJE_50_d\tests\\\03.A\problem.xml):  [IJE] While parsing C:\07_loi\IJE_50_d\tests\\\03.A\problem.xml: Invalid filename" eval-comment="" points="0" max-points="0"/>
+  </submit>
+  <submit party="RLN" problem="03.A" language-id="PAS" time="77" id="7" points="0">
+    <test outcome="compilation-error" comment="SOL.PAS(1): Error 36: BEGIN expected." eval-comment="" points="0" max-points="100"/>
+  </submit>
+  <submit party="RLN" problem="02.A" language-id="PAS" time="80" id="8" points="100">
+    <test outcome="accepted" comment="No: N=1" eval-comment="" points="3" max-points="3"/>
+    <test outcome="accepted" comment="No: N=2" eval-comment="" points="3" max-points="3"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=4" eval-comment="" points="3" max-points="3"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=7" eval-comment="" points="4" max-points="4"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=10" eval-comment="" points="4" max-points="4"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=50" eval-comment="" points="5" max-points="5"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=100" eval-comment="" points="6" max-points="6"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=150" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="10" max-points="10"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=199" eval-comment="" points="10" max-points="10"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="No: N=199" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="10" max-points="10"/>
+    <test outcome="accepted" comment="No: N=200" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="10" max-points="10"/>
+  </submit>
+  <submit party="RLN" problem="02.A" language-id="PAS" time="81" id="9" points="0">
+    <test outcome="compilation-error" comment="SOL.PAS(1): Error 36: BEGIN expected." eval-comment="" points="0" max-points="100"/>
+  </submit>
+  <submit party="RLN" problem="03.A" language-id="PAS" time="81" id="10" points="0">
+    <test outcome="compilation-error" comment="SOL.PAS(1): Error 36: BEGIN expected." eval-comment="" points="0" max-points="100"/>
+  </submit>
+  <submit party="RLN" problem="03.A" language-id="PAS" time="81" id="11" points="100">
+    <test outcome="accepted" comment="No: N=1" eval-comment="" points="3" max-points="3"/>
+    <test outcome="accepted" comment="No: N=2" eval-comment="" points="3" max-points="3"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=4" eval-comment="" points="3" max-points="3"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=7" eval-comment="" points="4" max-points="4"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=10" eval-comment="" points="4" max-points="4"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=50" eval-comment="" points="5" max-points="5"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=100" eval-comment="" points="6" max-points="6"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=150" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="10" max-points="10"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=199" eval-comment="" points="10" max-points="10"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="No: N=199" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="10" max-points="10"/>
+    <test outcome="accepted" comment="No: N=200" eval-comment="" points="8" max-points="8"/>
+    <test outcome="accepted" comment="Ну &quot;он&quot; &quot;&lt;&gt;крут!&quot; N=200" eval-comment="" points="10" max-points="10"/>
+  </submit>
+  <submit party="VLA" problem="02.A" language-id="PAS" time="111" id="12" points="0">
+    <test outcome="compilation-error" comment="SOL.PAS(1): Error 36: BEGIN expected." eval-comment="" points="0" max-points="100"/>
+  </submit>
+  <submit party="VLA" problem="02.A" language-id="PAS" time="112" id="13" points="0">
+    <test outcome="compilation-error" comment="SOL.PAS(1): Error 36: BEGIN expected." eval-comment="" points="0" max-points="100"/>
+  </submit>
+  <submit party="VLA" problem="02.A" language-id="PAS" time="112" id="14" points="0">
+    <test outcome="compilation-error" comment="SOL.PAS(1): Error 36: BEGIN expected." eval-comment="" points="0" max-points="100"/>
+  </submit>
+  <submit party="VLA" problem="02.A" language-id="PAS" time="112" id="15" points="0">
+    <test outcome="compilation-error" comment="SOL.PAS(1): Error 36: BEGIN expected." eval-comment="" points="0" max-points="100"/>
+  </submit>
+  <submit party="EPV" problem="02.A" language-id="PAS" time="113" id="16" points="0">
+    <test outcome="compilation-error" comment="SOL.PAS(1): Error 36: BEGIN expected." eval-comment="" points="0" max-points="100"/>
+  </submit>
+  <submit party="EPV" problem="02.A" language-id="PAS" time="114" id="17" points="0">
+    <test outcome="compilation-error" comment="SOL.PAS(1): Error 36: BEGIN expected." eval-comment="" points="0" max-points="100"/>
+  </submit>
+  <submit party="EPV" problem="02.A" language-id="PAS" time="114" id="18" points="0">
+    <test outcome="compilation-error" comment="SOL.PAS(1): Error 36: BEGIN expected." eval-comment="" points="0" max-points="100"/>
+  </submit>
+  <submit party="EPV" problem="02.A" language-id="PAS" time="114" id="19" points="0">
+    <test outcome="compilation-error" comment="SOL.PAS(1): Error 36: BEGIN expected." eval-comment="" points="0" max-points="100"/>
+  </submit>
+  <submit party="EPV" problem="02.A" language-id="PAS" time="114" id="20" points="0">
+    <test outcome="compilation-error" comment="SOL.PAS(1): Error 36: BEGIN expected." eval-comment="" points="0" max-points="100"/>
+  </submit>
+  <submit party="EPV" problem="02.A" language-id="PAS" time="114" id="21" points="0">
+    <test outcome="compilation-error" comment="SOL.PAS(1): Error 36: BEGIN expected." eval-comment="" points="0" max-points="100"/>
+  </submit>
+  <submit party="EPV" problem="02.A" language-id="PAS" time="114" id="22" points="0">
+    <test outcome="compilation-error" comment="SOL.PAS(1): Error 36: BEGIN expected." eval-comment="" points="0" max-points="100"/>
+  </submit>
+</submits>

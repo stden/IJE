@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- 
+This file is part of IJE: the Integrated Judging Environment system 
+$Id: outcome.template.xml 61 2006-05-07 17:15:25Z *KAP* $
+-->
+<!--
+     tOutcome=record
+                    res:tResult;
+                    text:string;
+              end;      
+-->
+<result _typename="Outcome"
+  _addvarload="pctype:integer"
+  _addvarsave="pctype:integer"
+  _afterload="if a.res=_pc then begin|   if pctype=0 then|      raise eIJEerror.Create('','','PC type 0 for _pc')|   else a.res:=_pcbase+pctype;|end else if (pctype&lt;&gt;0)and(.res&lt;=_pcbase) then|    raise eIJEerror.create('','','Can''t have PCtype for non-pc outcome %d',[a.res]);"
+  _befsave="if .res>_pcbase then|   pctype:=.res-_pcbase|else pctype:=0;"
+  outcome="{.res:result:%s}"
+  comment="{.text:string:%s}"
+  pc-type="{pctype:optinteger:%d:optional:0}"
+/>

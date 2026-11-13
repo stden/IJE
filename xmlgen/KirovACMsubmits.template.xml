@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- 
+This file is part of IJE: the Integrated Judging Environment system 
+$Id: KirovACMsubmits.template.xml 178 2007-06-28 13:55:42Z kap $
+-->
+<submits _typename="KirovACMsubmits">
+  <submit _array="i=.nsubmit" _optional="1" 
+          party="{.s[i].party:string:%s}" 
+          problem="{.s[i].task:string:%s}" 
+          language-id="{.s[i].lang:string:%s}" 
+          time="{.s[i].time:integer:%d}" 
+          id="{.s[i].id:integer:%d}" 
+          points="{.s[i].pts:integer:%d}"
+          max-points="{.s[i].maxpts:integer:%d}">
+    <test _array="j=.s[i].tr.ntests" 
+            outcome="{.s[i].tr.test[j].res:result:%s}" 
+            comment="{.s[i].tr.test[j].text:string:%s}" 
+            eval-comment="{.s[i].tr.test[j].evaltext:string:%s}" 
+            points="{.s[i].tr.test[j].pts:integer:%d}" 
+            max-points="{.s[i].tr.test[j].max:integer:%d}"
+            />
+  </submit>
+</submits>

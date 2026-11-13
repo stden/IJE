@@ -1,0 +1,103 @@
+div.sort{
+  width:450px;
+  font-size:80%;
+  text-align:right;
+  padding-bottom:5px;
+  padding-top:5px;
+}
+font.ProbFull{
+  color:green;
+  font-weight:bold;
+}
+font.probinfo{
+  font-size:80%;
+  font-weight:normal;
+}
+td.time,td.prob,td.points,td.stests{
+  border-bottom:1px solid #220055;
+}
+td.time,td.time_{
+  width:160px;
+  padding-left:10px;
+}
+td.prob,td.prob_{
+  width:80px;
+}
+td.points,td.points_{
+  width:100px;
+}
+td.stests,td.stests_{
+  width:120px;
+}
+table.tests,table.tests_{
+  width:470px;
+}
+table.msgdetails td.msgleft{
+  padding-right:20px;
+}
+table.dtests{
+  width:100%;
+  border:1px solid #220055;
+  border-top:none;
+  font-size:90%;
+}
+table.dtests td{
+  padding:0px;
+  padding-top:2px;
+  padding-bottom:2px;
+  border-top:1px solid #220055;
+}
+table.dtests td.testid{
+  width:30px;
+  padding-left:10px;
+}
+table.dtests td.doutcome{
+  width:40px;
+}
+table.dtests td.dpoints{
+  width:80px;
+}
+tr.ok{
+   background:#BBEEBB;
+}
+tr.wa{
+   background:#EEBBBB;
+}
+tr.pe{
+   background:#BBEEEE;
+}
+tr.tl,tr.ml,tr.ol,tr.il{
+   background:#BBBBEE;
+}
+tr.re,tr.cr{
+   background:#DD8888;
+}
+tr.sv{
+   background:#DD3333;
+}
+tr.nc{
+   background:#88aa88;
+}
+tr.ce{
+   background:#EECCEE;
+}
+tr.ns{
+   background:#dddddd;
+}
+tr.cp{
+   background:#99dd99;
+}
+tr.fl{
+   background:#EEAAEE;
+}
+tr.nt{
+   background:#dddddd;
+}
+tr.pc{
+   background:#ffffbb;
+}
+td.nosubmissions{
+  font-style:italic;
+  text-align:center;
+  font-size:90%;
+}

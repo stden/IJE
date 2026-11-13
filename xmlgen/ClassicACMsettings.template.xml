@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- 
+This file is part of IJE: the Integrated Judging Environment system 
+$Id: ClassicACMsettings.template.xml 178 2007-06-28 13:55:42Z kap $
+-->
+<acm-contest _typename="ClassicACMsettings"
+ start="{.start:integer:%d}" 
+ length="{.length:integer:%d}" 
+ title="{.title:string:%s}"
+ penalty="{.penalty:integer:%d}"
+ showtest="{.showtest:boolean:%s}"
+ showcomment="{.showtest:boolean:%s}"
+ monitor="{.monitorFile:string:%s}"
+ submits="{.submitsFile:string:%s}"
+ >
+  <problems>
+    <problem _array="i=.ntask" id="{.task[i].id:string:%s}" name="{.task[i].name:string:%s}" _optional="1"/>
+  </problems>
+  <parties>
+     <party _array="j=.nparty" id="{.party[j].id:string:%s}" 
+                               name="{.party[j].name:string:%s}" 
+                               password="{.party[j].pwd:string:%s}" _optional="1"/>
+  </parties>
+</acm-contest>

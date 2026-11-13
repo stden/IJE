@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- 
+This file is part of IJE: the Integrated Judging Environment system 
+$Id: RunLauncherSettings.template.xml 206 2008-04-21 16:42:45Z *KAP* $
+-->
+<!--
+    tRunLauncherSettings=record
+      useDefDesktop:boolean;
+      user:array[false..true] of record
+             name,pwd:WideString;
+           end;
+    end;
+-->
+<launcher-configuration _typename="RunLauncherSettings"
+  use-default-desktop="{.useDefDesktop:boolean:%s}">
+  <user login="{.user[true].name:string:%s}" password="{.user[true].pwd:string:%s}"/>
+  <admin-user login="{.user[false].name:string:%s}" password="{.user[false].pwd:string:%s}"/>
+</launcher-configuration>

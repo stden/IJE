@@ -1,0 +1,1 @@
+for %%i in (*.template.xml) do gen %%i

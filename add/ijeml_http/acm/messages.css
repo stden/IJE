@@ -1,0 +1,54 @@
+pre.comment{
+  font-family:verdana, tahoma, Helvetic;
+  margin-bottom:0px;
+}
+td.time,td.prob,td.outcome,td.test,td.comment{
+  border-bottom:1px solid #220055;
+}
+td.time,td.time_{
+  width:50px;
+}
+td.prob,td.prob_{
+  width:70px;
+  padding-left:5px;
+}
+td.outcome,td.outcome_{
+  width:180px;
+  white-space:nowrap;
+  padding-left:5px;
+}
+td.test,td.test_{
+  width:50px;
+  padding-left:5px;
+}
+td.comment,td.comment_{
+  padding-left:5px;
+}
+td.nosubmissions{
+  font-style:italic;
+  text-align:center;
+  font-size:90%;
+}
+/*Problem status слева от названия задачи*/
+font.accepted,font.rejected,font.nosub{
+  font-size:100%;
+  font-family:Courier New,Courier,monospaced;
+}
+font.accepted{
+  color:green;
+}
+font.rejected{
+  color:red;
+}
+font.nosub{
+  color:gray;
+}
+table.msgdetails td.msgleft{
+  padding-right:20px;
+}
+table.msgdetails font.notshowed{
+  font-style:italic;
+}
+table.msgdetails font.comment{
+  font-family:Courier New, Courier, monospaced;
+}

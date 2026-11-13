@@ -1,0 +1,1 @@
+Процедура TestedSolution должна проставлять id submit'а

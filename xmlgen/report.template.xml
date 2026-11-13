@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- 
+This file is part of IJE: the Integrated Judging Environment system 
+$Id: report.template.xml 161 2007-05-13 16:02:30Z *KAP* $
+-->
+<!--
+    tReport=record
+      task:string;
+      boy:string;
+      taskname:string;
+      tasktype:char;
+      tl:longint;
+      ml:longint;
+      comp:record
+            res:tResult;
+            text:string;
+      end;
+      ntests:integer;
+      test:array[1..MAXTESTS] of record
+         res:tResult;
+         pts,maxpts:word;
+         text,evaltext:string;
+         time,mem:double;
+      end;
+      pts:integer;
+      maxpts:integer;
+      res:tResult;
+    end;
+-->
+<testing-report _typename="Report"
+   version="2.0" 
+   points="{.pts:integer:%d}"
+   max="{.maxpts:integer:%d}"
+   outcome="{.res:result:%s}"
+   gtid="{.gtid:GTID:%s}">
+  <solution
+       problem="{.task:string:%s}"
+       problem-name="{.taskname:string:%s}"
+       problem-type="{.tasktype:char:%s}"
+       contestant="{.boy:string:%s}"
+       time-limit="{.tl:tl:%d}"
+       memory-limit="{.ml:ml:%d}"
+  />
+  <compiling
+    outcome="{.comp.res:result:%s}"
+    command-line="{.comp.cmdline:string:%s}"
+    compiler-output="{.comp.text:string:%s}"
+  />
+  <testing _optional="1">
+    <results _optional="1">
+      <test _array="i=.ntests" _optional="1"
+         id="{i:integer:%d:ignoreload}"
+         outcome="{.test[i].res:result:%s}"
+         points="{.test[i].pts:integer:%d}"
+         max-points="{.test[i].maxpts:integer:%d}"
+         comment="{.test[i].text:string:%s}"
+         eval-comment="{.test[i].evaltext:string:%s}"
+         time="{.test[i].time:float:%3.3f}"
+         mem="{.test[i].mem:integer:%d}"
+      />
+    </results>
+  </testing>
+</testing-report>

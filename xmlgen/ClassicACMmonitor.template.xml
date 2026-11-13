@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- 
+This file is part of IJE: the Integrated Judging Environment system 
+$Id: ClassicACMmonitor.template.xml 175 2007-06-24 16:25:56Z *KAP* $
+-->
+<!--
+    tClassicACMmonitor=record
+      qcfg:tClassicACMsettings;
+      submit:tClassicACMsubmits;
+      ije_ver:string;
+      time:integer;
+      status:string;
+    end;
+-->
+<standings _typename="ClassicACMmonitor"
+  ije-version="{.ije_ver:string:%s}" 
+  time="{.contest_time:integer:%d}" 
+  status="{.status:string:%s}" 
+  start="{.qcfg.start:integer:%d}" 
+  length="{.qcfg.length:integer:%d}" 
+  title="{.qcfg.title:string:%s}"
+  penalty="{.qcfg.penalty:integer:%d}"
+  showtest="{.qcfg.showtest:boolean:%s}"
+  showcomment="{.qcfg.showtest:boolean:%s}"
+  monitor="{.qcfg.monitorFile:string:%s}"
+  submits="{.qcfg.submitsFile:string:%s}"
+  nsubmits="{.submits.nsubmit:integer:%d}">
+  <problems>
+    <problem _array="i=.qcfg.ntask" id="{.qcfg.task[i].id:string:%s}" name="{.qcfg.task[i].name:string:%s}" _optional="1"/>
+  </problems>
+  <parties>
+     <party _array="j=.qcfg.nparty" id="{.qcfg.party[j].id:string:%s}" 
+                               name="{.qcfg.party[j].name:string:%s}" 
+                               password="{.qcfg.party[j].pwd:string:%s}" 
+                               solved="{.solved[j,0]:integer:%d}" 
+                               time="{.time[j,0]:integer:%d}"
+                               _optional="1">
+        <problem _array="k=.qcfg.ntask" _find=".qcfg.task[k].id=id" _max=".qcfg.ntask" _optional="1"
+                                          id="{.qcfg.task[k].id:string:%s}" 
+                                          solved="{.solved[j,k]:integer:%d}" 
+                                          time="{.time[j,k]:integer:%d}">
+          <submit _array="l=.submits.nsubmit" _optional="1"  _array_preload="id"
+                  _select="(.submits.s[l].party=.qcfg.party[j].id) and (.submits.s[l].task=.qcfg.task[k].id)"
+                  id="{.submits.s[l].id:integer:%d}" 
+                  party="{.submits.s[l].party:string:%s}" 
+                  problem="{.submits.s[l].task:string:%s}" 
+                  language-id="{.submits.s[l].lang:string:%s}" 
+                  time="{.submits.s[l].time:integer:%d}" 
+                  outcome="{.submits.s[l].res:result:%s}" 
+                  test="{.submits.s[l].test:integer:%d}" 
+                  comment="{.submits.s[l].comment:string:%s}"/>
+        </problem>
+     </party>
+  </parties>
+</standings>

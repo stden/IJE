@@ -1,0 +1,4 @@
+const IJE_REV='$WCREV$';
+      IJE_LASTCHANGEDDATE='$WCDATE$';
+      IJE_COMPILETIME='$WCNOW$';
+      IJE_LOCALMODIF=$WCMODS?true:false$;

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<standings
+  ije-version="5.0 RC2"
+  time="1066"
+  status="Running"
+  start="10"
+  length="20000"
+  title="Test ACM contest 2"
+  penalty="20"
+  showtest="False"
+  showcomment="False"
+  monitor="example2_monitor.xml"
+  submits="example2_submits.xml"
+  nsubmits="1"
+>
+  <problems>
+    <problem id="12.A" name="12.Aname"/>
+    <problem id="13.A" name="13.Aname"/>
+  </problems>
+  <parties>
+    <party id="EPV" name="EPVname" password="epvpw" solved="0" time="0">
+      <problem id="12.A" solved="0" time="0">
+      </problem>
+      <problem id="13.A" solved="0" time="0">
+      </problem>
+    </party>
+    <party id="VLA" name="VLAname" password="vlapw" solved="0" time="0">
+      <problem id="12.A" solved="-1" time="0">
+        <submit id="1" party="VLA" problem="12.A" language-id="PAS" time="757" outcome="partial-correct-1" test="5" comment="(1) Ну он крут! N=10"/>
+      </problem>
+      <problem id="13.A" solved="0" time="0">
+      </problem>
+    </party>
+    <party id="RAI" name="RAIname" password="raipw" solved="0" time="0">
+      <problem id="12.A" solved="0" time="0">
+      </problem>
+      <problem id="13.A" solved="0" time="0">
+      </problem>
+    </party>
+  </parties>
+</standings>

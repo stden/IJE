@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<rw-contest 
+ start="540" 
+ length="600" 
+ title="Тур дописывания старших"
+ penalty-coeff="0.5"
+ base-results="old"
+ showtests="true"
+ showcomments="true"
+ monitor="rw_old_monitor.xml"
+ submits="rw_old_submits.xml"
+ >
+  <problems>
+    <problem id="27.1" name="Батон"/>
+    <problem id="27.2" name="А ты купи коня!"/>
+    <problem id="27.3" name="Кофе"/>
+    <problem id="28.1" name="Коды скобок"/>
+    <problem id="28.2" name="Разнообразие"/>
+    <problem id="28.3" name="Марсианская система"/>
+    <problem id="29.1" name="Змейка"/>
+    <problem id="29.2" name="Открытка и конверт"/>
+    <problem id="29.3" name="Разложение на простые множители"/>
+    <problem id="29.4" name="Длинное деление"/>
+    <problem id="30.1" name="Вещественное деление"/>
+    <problem id="30.2" name="Мужик в таблице"/>
+    <problem id="30.3" name="Системы счисления"/>
+    <problem id="01.1" name="дружественные числа"/>
+    <problem id="01.2" name="Путь в таблице"/>
+    <problem id="01.3" name="Выпуклая оболочка"/>
+    <problem id="02.1" name="Удаление клеток"/>
+    <problem id="02.2" name="Несоставляемое число"/>
+    <problem id="02.3" name="Игра на дереве"/>
+    <problem id="03.1" name="Гангстеры"/>
+    <problem id="03.2" name="Раскраска прямой"/>
+    <problem id="03.3" name="Обобщенная последоват Фибоначчи"/>
+    <problem id="04.1" name="Путь коня"/>
+    <problem id="04.2" name="Ближайшее число"/>
+    <problem id="04.3" name="Провода"/>
+    <problem id="05.1" name="Сумма"/>
+    <problem id="05.2" name="Последовательность квадратов"/>
+    <problem id="05.3" name="Палиндромы"/>
+    <problem id="06.1" name="Два круга"/>
+    <problem id="06.2" name="Точки в многоугольнике"/>
+    <problem id="06.3" name="Водопровод"/>
+    <problem id="07.1" name="Простые числа"/>
+    <problem id="07.2" name="Выражения"/>
+    <problem id="07.3" name="Треугольник и точка"/>
+    <problem id="07.3" name="Химия"/>
+    <problem id="08.1" name="Бассейн реки"/>
+    <problem id="08.2" name="Средний школьник"/>
+    <problem id="08.3" name="Тройная последовательность"/>
+    <problem id="09.1" name="Разложение на слагаемые"/>
+    <problem id="09.2" name="Стена"/>
+    <problem id="09.3" name="Умножение многочленов"/>
+    <problem id="10.1" name="Игра 'Даты'"/>
+    <problem id="10.2" name="Площадь прямоугольников"/>
+    <problem id="10.3" name="Lines"/>
+    <problem id="13.1" name="КМП"/>
+    <problem id="13.2" name="Сдвиги"/>
+    <problem id="13.3" name="Круговая оборона"/>
+  </problems>
+  <parties>
+    <party id="KRI" name="KRI" password=""/>
+    <party id="ANS" name="ANS" password=""/>
+    <party id="OGD" name="OGD" password=""/>
+    <party id="TIA" name="TIA" password=""/>
+    <party id="VAV" name="VAV" password=""/>
+    <party id="DUA" name="DUA" password=""/>
+    <party id="OGM" name="OGM" password=""/>
+    <party id="KUN" name="KUN" password=""/>
+    <party id="NID" name="NID" password=""/>
+    <party id="LUA" name="LUA" password=""/>
+  </parties>
+</rw-contest>

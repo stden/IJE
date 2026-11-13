@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- 
+This file is part of IJE: the Integrated Judging Environment system 
+$Id: table.template.xml 184 2007-07-13 13:46:07Z kap $
+-->
+<!--
+     tstable=array[1..maxboys,1..maxtasks+1] of record
+                                               minus:word;
+                                               pts:word;
+                                               res:tresult;
+                                               end;
+     ttask=array[1..maxtasks] of string;
+     tboy=array[1..maxboys] of string;
+     ttasktype=array[1..maxtasks] of char;
+     ttable=record
+      t:tstable;
+      nboy,ntask:integer;
+      boy:tboy;
+      task:ttask;
+      tasktype:ttasktype;
+    end;
+-->
+<results _typename="Table"
+  _addvarload="b:integer;t:integer"
+  _inittype="for b:=1 to maxboys do|  for t:=1 to maxtasks do|    .t[b,t].res:=_ns;">
+  <problems>
+    <problem _array="i=.ntask" id="{.task[i]:string:%s}" type="{.tasktype[i]:char:%s}" _optional="1"/>
+  </problems>
+  <contestants>
+    <contestant _array="ii=.nboy" id="{.boy[ii]:string:%s}" _optional="1"
+      _location="{.loc[ii]:optinteger:%d:optional:0}">
+      <problem _array="j=.ntask" _find=".task[j]=id" _max=".ntask" _optional="1"
+        id="{.task[j]:string:%s}" 
+        points="{.t[ii,j].pts:integer:%d}" 
+        minus="{.t[ii,j].minus:integer:%d}" 
+        outcome="{.t[ii,j].res:result:%s}" />
+    </contestant>
+  </contestants>
+</results>
+

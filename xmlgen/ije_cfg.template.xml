@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- 
+This file is part of IJE: the Integrated Judging Environment system 
+$Id: ije_cfg.template.xml 211 2010-01-22 17:09:54Z Стандартный $
+-->
+<ije-configuration _typename="Settings"
+  testing-path="{.testingp:path:%s}"
+  problems-path="{.testp:path:%s}"
+  solutions-path="{.solp:path:%s}"
+  acm-solutions-path="{.acmsolp:path:%s}"
+  results-path="{.resp:path:%s}"
+  reports-path="{.reportsp:path:%s}"
+  dll-path="{.dllp:path:%s}"
+  macs-path="{.macp:path:%s}"
+  archive-path="{.archivep:path:%s}"
+  run-dll="{.rundll:string:%s}"
+  idle-limit="{.idlelim:tl:%d}"
+  idle-percent="{.idlepercent:integer:%d}"
+  solutions-format="{.solformat:string:%s}"
+  acm-solutions-format="{.acmsolformat:string:%s}"
+  problems-format="{.taskformat:string:%s}"
+  table-dll="{.tabledll:string:%s}"
+>
+  <default-cmdline _optional="1"
+     test-client="{.defcmd.tc:string:%s:optional}"
+     server="{.defcmd.server:string:%s:optional}"
+     user-interface-classic="{.defcmd.uic:string:%s:optional}"
+  />
+  <languages>
+    <language _array="i=.ncomp"
+      command-line="{.comp[i].cmdline:string:%s}" 
+      id="{.comp[i].ext:string:%s:uppercase}" 
+      name="{.comp[i].name:string:%s}"
+      run-command-line="{.comp[i].runline:string:%s:optional:@.exe}"
+      compiled-ext="{.comp[i].compext:string:%s:optional:.exe}"
+      keep-source-name="{.comp[i].keepname:optboolean:%s:optional:false}"
+    />
+  </languages>
+</ije-configuration>

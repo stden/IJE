@@ -1,0 +1,5 @@
+
+Warning: dl(): Unable to load dynamic library 'E:/php.5.0.4/ext/php_ffi.dll' - Не найден указанный модуль.
+ in E:\IJE\IJE_50_d\other\php_ui\b.php on line 2
+
+Fatal error: Class 'ffi' not found in E:\IJE\IJE_50_d\other\php_ui\b.php on line 3

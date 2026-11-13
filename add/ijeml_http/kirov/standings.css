@@ -1,0 +1,50 @@
+table.monitor{
+  font-family: Courier;
+  font-size:normal;
+  border:1px solid #220055;
+}
+tr.head{
+  background:#99ccdd;
+}
+td.ProblemHead,td.PointsHead,td.Fullhead,
+td.Problem,td.Points,td.Full,td.ProbFull,td.ProbNotFull,td.No{
+  width:50 px;
+  text-align:center;
+}
+td.PlaceHead,td.Place{
+  width:30 px;
+  text-align:center;
+  font-weight:bold;
+}
+td.FullHead,td.Full{
+  width:30 px;
+  text-align:center;
+}
+td.IdHead,td.Id{
+  width:50 px;
+  text-align:left;
+  padding-left:5px;
+}
+td.Party,td.PartyHead{
+  text-align:left;
+  width:30px;
+}
+td.ProbFull{
+  color:green;
+  font-weight:bold;
+}
+td.ProbNotFull{
+  color:black;
+}
+td.No{
+  color:gray;
+}
+tr.team0{
+  background:#ffffff;
+}
+tr.team1{
+  background:#f0f0f0;
+}
+tr.My{
+  background:#ffaadd;
+}

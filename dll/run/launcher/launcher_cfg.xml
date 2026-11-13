@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<launcher-configuration use-default-desktop="false">
+  <uuser login="Run" password="qwe"/>
+  <aadmin-user login="RunAdmin" password="123"/>
+  
+  <user login="" password=""/>
+  <admin-user login="" password=""/>
+</launcher-configuration>

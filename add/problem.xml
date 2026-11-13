@@ -1,0 +1,20 @@
+<problem id="ru.nnov.nnoi.2004.18">
+  <name value="" />
+  <judging>
+    <script type="%ioi">
+      <verifier type="%testlib">
+        <binary executable-id="x86.exe.win32" href="test.exe" />
+      </verifier>
+      <testset
+         input-name="1"
+         output-name="2"
+         input-href="3"
+         answer-href="4"
+         time-limit="1s"
+         memory-limit="8388608b"
+      >
+        <test points="3" />
+      </testset>
+    </script>
+  </judging>
+</problem>

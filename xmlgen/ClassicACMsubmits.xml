@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- 
+This file is part of IJE: the Integrated Judging Environment system 
+$Id: ClassicACMsubmits.xml 178 2007-06-28 13:55:42Z kap $
+-->
+<submits _typename="ClassicACMsubmits">
+  <submit _array="i=.nsubmit" _optional="1" 
+          party="{.s[i].party:string:%s}" 
+          problem="{.s[i].task:string:%s}" 
+          language-id="{.s[i].lang:string:%s}" 
+          time="{.s[i].time:integer:%d}" 
+          id="{.s[i].id:integer:%d}" 
+          outcome="{.s[i].res:result:%s}" 
+          test="{.s[i].test:integer:%d}" 
+          comment="{.s[i].comment:string:%s}"/>
+</submits>

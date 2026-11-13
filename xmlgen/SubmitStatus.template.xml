@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- 
+This file is part of IJE: the Integrated Judging Environment system 
+$Id: SubmitStatus.template.xml 170 2007-06-11 15:41:04Z *KAP* $
+-->
+<!--
+   tSubmitStatus=record
+                   status:string;
+                   id:integer;
+                 end;  
+-->
+<submit-status _typename="SubmitStatus"
+  status="{.status:string:%s}"
+  id="{.id:integer:%d}"
+  reason="{.reason:string:%s}">
+</submit-status>
+
+

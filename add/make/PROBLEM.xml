@@ -1,0 +1,24 @@
+<problem id="">
+  <name value="" />
+  <judging>
+    <script type="%ioi">
+      <verifier type="%testlib">
+        <binary executable-id="x86.exe.win32" href="test.exe" />
+      </verifier>
+      <testset
+         input-name=""
+         output-name=""
+         input-href=""
+         answer-href=""
+         time-limit="0s"
+         memory-limit="8Mb"
+      >
+        <test points="0" />
+      </testset>
+    </script>
+  </judging>
+</problem>
+
+
+
+

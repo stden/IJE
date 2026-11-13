@@ -1,0 +1,5 @@
+1000    TotalInterval
+10000   TestingInterval
+2000    TotalFinInterval
+2000    TotalFirstInterval {!!!must be <>TotalInterval}
+50      AddTestInterval

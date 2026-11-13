@@ -1,0 +1,34 @@
+[IJEProcEnter |  | Borland.EditOptions.Pascal]
+LogEnterProc('|',LOG_LEVEL_);
+try
+try
+//Code starts
+[IJEProcExit |  | Borland.EditOptions.Pascal]
+//Code ends
+except
+  on e:exception do
+     raise eIJEerror.CreateAppendPath(e,'|');
+end;
+finally
+  LogLeaveProc(,LOG_LEVEL_);
+end;
+[IJEFuncExit |  | Borland.EditOptions.Pascal]
+//Code ends
+except
+  on e:exception do
+     raise eIJEerror.CreateAppendPath(e,'|');
+end;
+finally
+  LogLeaveProc(,LOG_LEVEL_,);
+end;
+[DLLprocWrapper |  | Borland.EditOptions.Pascal]
+^
+begin
+try
+  result:=_^
+except
+  on e:exception do
+     raise eIJEerror.CreateAppendPath(e,);
+end;
+end;
+
